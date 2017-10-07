@@ -1,0 +1,49 @@
+{
+  "name": "brewboxit.github.io",
+  "version": "0.1.0",
+  "description": "The BrewBox Community Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --color",
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brewboxit/brewboxit.github.io.git"
+  },
+  "keywords": [
+    "BrewBox",
+    "community",
+    "website",
+    "talks",
+    "beer"
+  ],
+  "author": "The BrewBox Staff <brewboxit@gmail.com> (https://github.com/brewboxit)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brewboxit/brewboxit.github.io/issues"
+  },
+  "homepage": "https://github.com/brewboxit/brewboxit.github.io#readme",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "1.6.0",
+    "css-loader": "0.28.7",
+    "file-loader": "1.1.5",
+    "html-webpack-plugin": "2.30.1",
+    "postcss": "6.0.13",
+    "postcss-cssnext": "3.0.2",
+    "postcss-loader": "2.0.6",
+    "style-loader": "0.19.0",
+    "stylus": "0.54.5",
+    "stylus-loader": "3.0.1",
+    "webpack": "3.6.0",
+    "webpack-dev-server": "2.9.1"
+  },
+  "dependencies": {
+    "normalize.css": "7.0.0",
+    "redom": "3.6.2"
+  }
+}

@@ -1,3 +1,6 @@
+import { events } from './events'
+import { style } from './style.styl'
+
 const formatAsCurrent = ({
   speakers, date, title, subtitle, abstract, schedule,
   hashtag, eventbrite, facebook, video, slides,
@@ -45,18 +48,14 @@ const getFutureEvents = events =>
     events.filter(e => new Date(e.date).getMonth() > new Date().getMonth())
   )
 
-window.addEventListener('load', () => {
-  const events = window.events
-  
-  const currentContainer = document.getElementById('current')
-  const currentEvt = getCurrentEvent(events)
-  currentContainer.appendChild(formatAsCurrent(currentEvt))
+const currentContainer = document.getElementById('current')
+const currentEvt = getCurrentEvent(events)
+currentContainer.appendChild(formatAsCurrent(currentEvt))
 
-  const pastContainer = document.getElementById('past')
-  const pastEvts = getPastEvents(events)
-  pastEvts.map(evt => pastContainer.appendChild(formatAsPast(evt)))
+const pastContainer = document.getElementById('past')
+const pastEvts = getPastEvents(events)
+pastEvts.map(evt => pastContainer.appendChild(formatAsPast(evt)))
 
-  const futureContainer = document.getElementById('future')
-  const futureEvts = getFutureEvents(events)
-  futureEvts.map(evt => futureContainer.appendChild(formatAsFuture(evt)))
-})
+const futureContainer = document.getElementById('future')
+const futureEvts = getFutureEvents(events)
+futureEvts.map(evt => futureContainer.appendChild(formatAsFuture(evt)))

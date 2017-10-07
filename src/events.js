@@ -1,4 +1,4 @@
-window.events = [{
+const events = [{
   speakers: [{
     name: 'Daniele', surname: 'Crespi', email: '', twitter: '@CrespiDaniele',
   }, {
@@ -48,7 +48,7 @@ window.events = [{
   slides: '',
 }, {
   speakers: [{ name: 'Mariachiara', surname: 'Pezzotti', email: '', twitter: 'merissimissima' }],
-  date: 'TBD',
+  date: '2017-10-01',
   title: 'User Experience',
   subtitle: '',
   abstract: ``,
@@ -63,3 +63,5 @@ window.events = [{
   video: '',
   slides: '',
 }]
+
+export { events }
