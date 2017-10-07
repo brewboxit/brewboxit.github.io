@@ -1,8 +1,8 @@
 const events = [{
   speakers: [{
-    name: 'Daniele', surname: 'Crespi', email: '', twitter: '@CrespiDaniele',
+    name: 'Daniele', surname: 'Crespi', email: '', twitter: 'CrespiDaniele',
   }, {
-    name: 'Andrea', surname: 'Nelson Mauro', email: '', twitter: '@nelsonmau',
+    name: 'Andrea', surname: 'Nelson Mauro', email: '', twitter: 'nelsonmau',
   }],
   date: '2017-06-27',
   title: 'Gli Open Data in Lombardia, tra Regione ed Enti Locali',
@@ -20,7 +20,7 @@ const events = [{
   video: '',
   slides: '',
 }, {
-  speakers: [{ name: 'Fabrizio', surname: 'Cornelli', email: '', twitter: '' }],
+  speakers: [{ name: 'Fabrizio', surname: 'Cornelli', email: '', twitter: 'fabrizi0' }],
   date: '2017-09-27',
   title: 'DevSecOps and the hunter-farmer model',
   subtitle: 'Aka anthropology of a schizophrenic job.',
@@ -41,6 +41,7 @@ const events = [{
     { activity: 'Talk', start: '19:30', end: '20:30' },
     { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
   ],
+  tags: [ 'devsecops', 'security', 'devops', 'hunter', 'farmer', 'hacker', 'developer' ],
   hashtag: '',
   eventbrite: '37873199760',
   facebook: '271940556656971',

@@ -1,11 +1,32 @@
 @import "~normalize.css"
 
 body
-  background: #111111
-  padding: 2rem
+  background #111111
+  padding 2rem
 
-  *
-    color: white
+h1
+  color #E1A125
 
-  h1
-    color: #E1A125
+.events
+  list-style none
+  padding 0
+
+  & .event
+    color #AAAAAA
+    padding 1rem
+    border 1px solid #333333
+    border-radius 5px
+    margin-bottom 20px
+
+    & .title,
+    & .subtitle
+      font-size 1.5rem
+      margin-bottom 2rem
+    
+    & .subtitle
+      font-size .8rem
+      font-style italic
+
+    & .eventbrite
+      width 100%
+      height 300px
