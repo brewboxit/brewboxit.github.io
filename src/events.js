@@ -1,14 +1,12 @@
 const events = [{
-  speakers: [{
-    name: 'Daniele', surname: 'Crespi', email: '', twitter: 'CrespiDaniele',
-  }, {
-    name: 'Andrea', surname: 'Nelson Mauro', email: '', twitter: 'nelsonmau',
-  }],
-  date: '2017-06-27',
-  title: 'Gli Open Data in Lombardia, tra Regione ed Enti Locali',
-  subtitle: '',
-  abstract: `Daniele Crespi e Andrea Nelson Mauro saranno i nostri relatori e ci parleranno dei dati aperti della pubblica amministrazione, con particolare attenzione agli aspetti di trasparenza e possibilità di creare nuovi servizi che sfruttino proprio gli Open Data.
-  Scopriremo anche quali sono Open Data pubblicati da Regione Lombardia e dagli enti locali del territorio e come possono essere utilizzati, dalle licenze alle API. Una panoramica sul catalogo http://dati.lombardia.it`,
+  status: 'current',
+  speakers: [{ name: 'Mariachiara', surname: 'Pezzotti', email: '', twitter: 'merissimissima' }],
+  date: '2017-10-30',
+  title: 'User Experience',
+  subtitle: 'Ovvero la diplomazia quotidiana della UX',
+  abstract: `UX: tutti la cercano, tutti ne parlano. Ma in quanti coinvolgono realmente gli utenti nei processi di design? 
+  E come si sopravvive a budget ridotti, tempi stretti, e scontri a fuoco tra developer, digital guru, designer, clienti, product owner e marketing? 
+  In questo talk, Mariachiara (@merissimissima) ci racconterà la sua esperienza su come, concretamente, si possono integrare valori, attività, e strumenti  di user experience design per la piccola e media impresa.`,
   schedule: [
     { activity: 'Aperitivo', start: '18:30', end: '19:30' },
     { activity: 'Talk', start: '19:30', end: '20:30' },
@@ -20,6 +18,7 @@ const events = [{
   video: '',
   slides: '',
 }, {
+  status: 'past',
   speakers: [{ name: 'Fabrizio', surname: 'Cornelli', email: '', twitter: 'fabrizi0' }],
   date: '2017-09-27',
   title: 'DevSecOps and the hunter-farmer model',
@@ -47,12 +46,18 @@ const events = [{
   facebook: '271940556656971',
   video: '',
   slides: '',
-}, {
-  speakers: [{ name: 'Mariachiara', surname: 'Pezzotti', email: '', twitter: 'merissimissima' }],
-  date: '2017-10-01',
-  title: 'User Experience',
+},{
+  status: 'past',
+  speakers: [{
+    name: 'Daniele', surname: 'Crespi', email: '', twitter: 'CrespiDaniele',
+  }, {
+    name: 'Andrea', surname: 'Nelson Mauro', email: '', twitter: 'nelsonmau',
+  }],
+  date: '2017-06-27',
+  title: 'Gli Open Data in Lombardia, tra Regione ed Enti Locali',
   subtitle: '',
-  abstract: ``,
+  abstract: `Daniele Crespi e Andrea Nelson Mauro saranno i nostri relatori e ci parleranno dei dati aperti della pubblica amministrazione, con particolare attenzione agli aspetti di trasparenza e possibilità di creare nuovi servizi che sfruttino proprio gli Open Data.
+  Scopriremo anche quali sono Open Data pubblicati da Regione Lombardia e dagli enti locali del territorio e come possono essere utilizzati, dalle licenze alle API. Una panoramica sul catalogo http://dati.lombardia.it`,
   schedule: [
     { activity: 'Aperitivo', start: '18:30', end: '19:30' },
     { activity: 'Talk', start: '19:30', end: '20:30' },
