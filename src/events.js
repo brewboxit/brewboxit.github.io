@@ -68,6 +68,116 @@ const events = [{
   facebook: '',
   video: '',
   slides: '',
+},{
+  status: 'past',
+  speakers: [{
+    name: 'Sergio', surname: 'Cigoli', email: '', twitter: 'cigucigu',
+  }],
+  date: '2017-05-30',
+  title: 'From online training courses to MOOC',
+  subtitle: 'Formazione permanente per programmatori e non solo!',
+  abstract: `Mantenersi aggiornati sulle nuove tecnologie e/o imparare qualcosa di nuovo è sempre difficile. 
+  Abbiamo bisogno di soluzioni che siano adatte a noi e al tempo che abbiamo a disposizione, oltre che ad essere economicamente sostenibili. 
+  Negli ultimi anni si è moltiplicata l’offerta di corsi di formazione online, non solo raccolte di video tutorial, ma anche di materiale più interattivo, fino ad arrivare ai “Massive Open Online Courses” (MOOC) spesso erogati in collaborazione con alcune prestigiose università. Sergio Cigoli (@cigucigu) ha testato parecchie delle soluzioni disponibili, nel tentativo di irrobustire le sue basi di programmazione full-stack. Alcune sono state molto efficaci ed altre decisamente meno. Nel complesso però i risultati sono stati, a suo modo di vedere, molto soddisfacenti e gli piacerebbe condividerli.`,
+  schedule: [
+    { activity: 'Aperitivo', start: '18:30', end: '19:30' },
+    { activity: 'Talk', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
+  ],
+  hashtag: '',
+  eventbrite: '',
+  facebook: '118230102085591',
+  video: '',
+  slides: '',
+},{
+  status: 'past',
+  speakers: [{
+    name: 'Daniele', surname: 'Giussani', email: '', twitter: '',
+  },{
+    name: 'Corrado', surname: 'Ignoti', email: '', twitter: 'corradoignoti',
+  }],
+  date: '2017-04-27',
+  title: 'È LoRa dell\'IoT',
+  subtitle: '',
+  abstract: `In questo evento BrewBox Daniele e Corrado ci raccontano il loro viaggio nel mondo dei dispositivi connessi ad internet!
+  Dato il crescente uso dell'IoT in molti settori, le tecnologie ad essa legate stanno proliferando. Vi presentiamo LoRaWAN una tecnologia per l'IoT pensata per apparati alimentati a batteria. Cosa serve per partire? Un sensore, un gateway e.... tanta fantasia.
+  Vi aspettiamo (senza saldatore però... :P)!`,
+  schedule: [
+    { activity: 'Aperitivo', start: '18:30', end: '19:30' },
+    { activity: 'Talk', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
+  ],
+  hashtag: '',
+  eventbrite: '',
+  facebook: '1290590447690596',
+  video: '',
+  slides: '',
+},{
+  status: 'past',
+  speakers: [{
+    name: 'Roberto', surname: 'Albertini', email: '', twitter: 'robalbertini',
+  }],
+  date: '2017-03-28',
+  title: 'Pianificazione Adattiva',
+  subtitle: '',
+  abstract: `In questo talk Roberto Albertini (@robalbertini) ci mostrerà alcuni strumenti per controllare lo sviluppo software!
+  Tradizionalmente la pianificazione è vista come uno strumento per prevedere l’andamento di un progetto e congelare una promessa in un piano.
+  Questa promessa viene spesso smontata da cambiamenti ed imprevisti durante la vita del progetto.
+  Esiste un diverso approccio, che considera il cambiamento come una componente inevitabile.
+  Si rinuncia al desiderio di prevedere il progetto e ci si concentra su come controllarlo e adattarlo per ottenere il miglior risultato possibile.
+  Nel talk, tramite simulazioni di progetti dove accadono i tipici imprevisti, verranno presentati gli strumenti e le pratiche che permettono di controllare al meglio il progetto.
+  Se volete che il vostro prossimo progetto sia un successo...non mancate! :D`,
+  schedule: [
+    { activity: 'Aperitivo', start: '18:30', end: '19:30' },
+    { activity: 'Talk', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
+  ],
+  hashtag: '',
+  eventbrite: '',
+  facebook: '1116991255095909',
+  video: '',
+  slides: '',
+},{
+  status: 'past',
+  speakers: [{
+    name: 'Lino', surname: 'Telera', email: '', twitter: 'linotelera',
+  }],
+  date: '2017-02-21',
+  title: '3,2,1 code in container',
+  subtitle: '',
+  abstract: `Partendo da semplici routine scritte in diversi linguaggi, Lino Telera (@linotelera) ci spiegherà come costruire un applicazione cloud native partendo dal proprio PC, fino al delivery in sistemi cloud.
+  L'evento è pensato principalmente per devops e system integrator. I curiosi sono comunque benvenuti! :D
+  I principali argomenti che verranno toccati nel corso della serata sono: container management systems, VMware Photon, Cloud Native Applications
+  `,
+  schedule: [
+    { activity: 'Aperitivo', start: '18:30', end: '19:30' },
+    { activity: 'Talk', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
+  ],
+  hashtag: '',
+  eventbrite: '',
+  facebook: '447420418922408',
+  video: '',
+  slides: '',
+},{
+  status: 'past',
+  speakers: [{
+    name: 'Michele', surname: 'Capra', email: '', twitter: 'piccoloaiutante',
+  }],
+  date: '2017-02-21',
+  title: 'Microservices in practice with Seneca.js',
+  subtitle: '',
+  abstract: `Le architetture a microservices stanno cambiando rapidamente il modo in cui sviluppiamo le nostre applicazioni. L'aspetto fondamentale di queste architetture è il fatto di essere composte da componenti piccoli e fortemente disaccoppiati. Ma questa è la teoria, come possiamo veramente applicare questo pattern al nostro lavoro quotidiano? Come possiamo strutturare la nostra applicazione per ottenere il massimo dalle architetture a microservices? In questo talk, insieme a Michele Capra, cercheremo di dare una risposta a queste e altre domande con una introduzione al toolkit Seneca.js. Usando plugins, commands e altre funzionalità di Seneca.js vedremo come realizzare facilmente una applicazione Node.js che sfrutti i microservices.`,
+  schedule: [
+    { activity: 'Aperitivo', start: '18:30', end: '19:30' },
+    { activity: 'Talk', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
+  ],
+  hashtag: '',
+  eventbrite: '',
+  facebook: '447420418922408',
+  video: '',
+  slides: '',
 }]
 
 export { events }
