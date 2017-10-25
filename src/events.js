@@ -2,7 +2,7 @@ const events = [{
   status: 'current',
   speakers: [{ name: 'Mariachiara', surname: 'Pezzotti', email: '', twitter: 'merissimissima' }],
   date: '2017-10-30',
-  title: 'User Experience',
+  title: 'Experience Matters!',
   subtitle: 'Ovvero la diplomazia quotidiana della UX',
   abstract: `UX: tutti la cercano, tutti ne parlano. Ma in quanti coinvolgono realmente gli utenti nei processi di design? 
   E come si sopravvive a budget ridotti, tempi stretti, e scontri a fuoco tra developer, digital guru, designer, clienti, product owner e marketing? 
