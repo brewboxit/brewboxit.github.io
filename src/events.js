@@ -4,9 +4,10 @@ const events = [{
   date: '2017-10-30',
   title: 'Experience Matters!',
   subtitle: 'Ovvero la diplomazia quotidiana della UX',
-  abstract: `UX: tutti la cercano, tutti ne parlano. Ma in quanti coinvolgono realmente gli utenti nei processi di design? 
-  E come si sopravvive a budget ridotti, tempi stretti, e scontri a fuoco tra developer, digital guru, designer, clienti, product owner e marketing? 
-  In questo talk, Mariachiara (@merissimissima) ci racconterà la sua esperienza su come, concretamente, si possono integrare valori, attività, e strumenti di user experience design per la piccola e media impresa.`,
+  abstract: `UX: tutti la cercano, tutti ne parlano. Ma in quanti coinvolgono realmente gli utenti nei processi di design?
+  E come si sopravvive a budget ridotti, tempi stretti, e scontri a fuoco tra developer, digital guru, designer, clienti, product owner e marketing?
+  
+  In questo talk, Mariachiara ([@merissimissima](https://twitter.com/merissimissima)) ci racconterà la sua esperienza su come, concretamente, si possono integrare valori, attività, e strumenti di user experience design per la piccola e media impresa.`,
   schedule: [
     { activity: 'Aperitivo', start: '18:30', end: '19:30' },
     { activity: 'Talk', start: '19:30', end: '20:30' },

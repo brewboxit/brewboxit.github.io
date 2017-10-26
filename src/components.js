@@ -1,4 +1,9 @@
 import hop from './assets/brewbox-list-hop.svg'
+import Remarkable from 'remarkable'
+
+const md = new Remarkable({
+  breaks: true // Convert '\n' in paragraphs into <br>
+})
 
 const has = x => !!x && (x.length > 0)
 const optional = template => data => has(data) ? template(data) : ''
@@ -46,7 +51,7 @@ const Speakers = optional(s => `
 `)
 
 const Abstract = optional(a => `
-  <div class="event__abstract">${a}</div>
+  <div class="event__abstract">${md.render(a)}</div>
 `)
 
 const Schedule = optional(s => `
