@@ -24,14 +24,6 @@ const Activity = a =>
 
 const Tag = t => el('li.tags__tag', t)
 
-const Eventbrite = id => el('iframe', {
-  src: `//eventbrite.com/tickets-external?eid=${id}&amp;ref=etckt`
-})
-
-const Facebook = id => el('a.facebook__link', {
-  src: `https://www.facebook.com/events/${id}`
-})
-
 const Event = e =>
   el(`.event.event--${e.status}`, [
     e.title && el(`h3.event__title`, e.title),
@@ -49,12 +41,18 @@ const Event = e =>
       el('h4.event__section-title', 'Temi'),
       el('ul.event__tags', e.tags.map(Tag)),
     ]),
-    e.hashtag && el(`.hashtag`, e.hashtag),
-    e.eventbrite && el('.event__eventbrite', [
-      el('h4.event__section-title', 'Prenota il tuo posto!'),
-      Eventbrite(e.eventbrite),
+    e.hashtag && el('.event__hashtag', [
+      el('h4.event__section-title', 'Hashtag dell\'evento'),
+      el('.event__hashtag', `#${e.hashtag}`),
     ]),
-    e.facebook && el(`.event__facebook`, Facebook(e.facebook)),
+    e.eventbrite && el('.event__eventbrite', [
+      el('h4.event__section-title', 'Prenota il tuo posto'),
+      el('a.eventbrite__link', { href: e.eventbrite, target: '_blank' }, 'Eventbrite')
+    ]),
+    e.facebook && el('.event__facebook', [
+      el('h4.event__section-title', 'Fai girare la voce'),
+      el('a.facebook__link', { href: e.facebook, target: '_blank' }, 'Facebook')
+    ]),
     e.slides && el(`.event__slides`, e.slides),
   ])
 

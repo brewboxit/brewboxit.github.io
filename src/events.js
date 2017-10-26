@@ -6,15 +6,16 @@ const events = [{
   subtitle: 'Ovvero la diplomazia quotidiana della UX',
   abstract: `UX: tutti la cercano, tutti ne parlano. Ma in quanti coinvolgono realmente gli utenti nei processi di design? 
   E come si sopravvive a budget ridotti, tempi stretti, e scontri a fuoco tra developer, digital guru, designer, clienti, product owner e marketing? 
-  In questo talk, Mariachiara (@merissimissima) ci racconterà la sua esperienza su come, concretamente, si possono integrare valori, attività, e strumenti  di user experience design per la piccola e media impresa.`,
+  In questo talk, Mariachiara (@merissimissima) ci racconterà la sua esperienza su come, concretamente, si possono integrare valori, attività, e strumenti di user experience design per la piccola e media impresa.`,
   schedule: [
     { activity: 'Aperitivo', start: '18:30', end: '19:30' },
     { activity: 'Talk', start: '19:30', end: '20:30' },
     { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
   ],
-  hashtag: '',
-  eventbrite: '',
-  facebook: '',
+  tags: [ 'ux', 'pmi', 'design', 'interfaces' ],
+  hashtag: 'bboxux',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-experience-matters-38679232626?aff=es2#tickets',
+  facebook: 'https://www.facebook.com/events/334984146965938',
   video: '',
   slides: '',
 }, {
@@ -41,12 +42,12 @@ const events = [{
     { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
   ],
   tags: [ 'devsecops', 'security', 'devops', 'hunter', 'farmer', 'hacker', 'developer' ],
-  hashtag: '',
+  hashtag: 'bboxdevsecops',
   eventbrite: '37873199760',
-  facebook: '271940556656971',
+  facebook: 'https://www.facebook.com/events/271940556656971',
   video: '',
   slides: '',
-},{
+}, {
   status: 'past',
   speakers: [{
     name: 'Daniele', surname: 'Crespi', email: '', twitter: 'CrespiDaniele',
@@ -68,7 +69,7 @@ const events = [{
   facebook: '',
   video: '',
   slides: '',
-},{
+}, {
   status: 'past',
   speakers: [{
     name: 'Sergio', surname: 'Cigoli', email: '', twitter: 'cigucigu',
@@ -86,10 +87,10 @@ const events = [{
   ],
   hashtag: '',
   eventbrite: '',
-  facebook: '118230102085591',
+  facebook: 'https://www.facebook.com/events/118230102085591',
   video: '',
   slides: '',
-},{
+}, {
   status: 'past',
   speakers: [{
     name: 'Daniele', surname: 'Giussani', email: '', twitter: '',
@@ -109,10 +110,10 @@ const events = [{
   ],
   hashtag: '',
   eventbrite: '',
-  facebook: '1290590447690596',
+  facebook: 'https://www.facebook.com/events/1290590447690596',
   video: '',
   slides: '',
-},{
+}, {
   status: 'past',
   speakers: [{
     name: 'Roberto', surname: 'Albertini', email: '', twitter: 'robalbertini',
@@ -134,10 +135,10 @@ const events = [{
   ],
   hashtag: '',
   eventbrite: '',
-  facebook: '1116991255095909',
+  facebook: 'https://www.facebook.com/events/1116991255095909',
   video: '',
   slides: '',
-},{
+}, {
   status: 'past',
   speakers: [{
     name: 'Lino', surname: 'Telera', email: '', twitter: 'linotelera',
@@ -156,10 +157,10 @@ const events = [{
   ],
   hashtag: '',
   eventbrite: '',
-  facebook: '447420418922408',
+  facebook: 'https://www.facebook.com/events/447420418922408',
   video: '',
   slides: '',
-},{
+}, {
   status: 'past',
   speakers: [{
     name: 'Michele', surname: 'Capra', email: '', twitter: 'piccoloaiutante',
@@ -175,7 +176,7 @@ const events = [{
   ],
   hashtag: '',
   eventbrite: '',
-  facebook: '447420418922408',
+  facebook: 'https://www.facebook.com/events/447420418922408',
   video: '',
   slides: '',
 }]
