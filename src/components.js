@@ -27,59 +27,77 @@ const Tag = t => `
   <li class="tags__tag">${t}</li>
 `
 
+const Title = t => t ? `
+  <h3 class="event__title">${t}</h3>
+` : ''
+
+const Subtitle = s => s ? `
+  <h4 class="event__subtitle">${s}</h4>
+` : ''
+
+const Speakers = s => has(s) ? `
+  <div class="event__speakers">
+    <span>by</span>
+    <ul class="speakers__list">
+      ${s.map(Speaker)}
+    </ul>
+  </div>
+`: ''
+
+const Abstract = a => a ? `
+  <div class="event__abstract">${a}</div>
+` : ''
+
+const Schedule = s => has(s) ? `
+  <div class="event__schedule">
+    <h4 class="event__section-title">Programma della serata</h4>
+    <ul class="event__schedule-list">
+      ${s.map(Activity).join('')}
+    </ul>
+  </div>
+` : ''
+
+const Tags = t => has(t) ? `
+  <div class="event__tags">
+    <h4 class="event__section-title">Temi</h4>
+    <ul class="event__tags">
+      ${t.map(Tag).join('')}
+    </ul>
+  </div>
+` : ''
+
+const Hashtag = h => has(h) ? `
+  <div class="event__hashtag">
+    <h4 class="event__section-title">Hashtag dell'evento</h4>
+    <div class="event__hashtag">#${h}</div>
+  </div>
+` : ''
+
+const Eventbrite = e => has(e) ? `
+  <div class="event__eventbrite">
+    <h4 class="event__section-title">Prenota il tuo posto</h4>
+    <a class="eventbrite__link" href="${e}">Eventbrite</a>
+  </div>
+` : ''
+
+const Facebook = f => has(f) ? `
+  <div class="event__facebook">
+    <h4 class="event__section-title">Fai girare la voce</h4>
+    <a class="facebook__link" href="${f}">Facebook</a>
+  </div>
+` : ''
+
 const Event = e => `
   <div class="event event--${e.status}">
-    ${e.title ? `
-      <h3 class="event__title">${e.title}</h3>
-    ` : ''}
-    ${e.subtitle ? `
-      <h4 class="event__subtitle">${e.subtitle}</h4>
-    ` : ''}
-    ${has(e.speakers) ? `
-      <div class="event__speakers">
-        <span>by</span>
-        <ul class="speakers__list">
-          ${e.speakers.map(Speaker)}
-        </ul>
-      </div>
-    `: ''}
-    ${e.abstract ? `
-      <div class="event__abstract">${e.abstract}</div>
-    ` : ''}
-    ${has(e.schedule) ? `
-      <div class="event__schedule">
-        <h4 class="event__section-title">Programma della serata</h4>
-        <ul class="event__schedule-list">
-          ${e.schedule.map(Activity).join('')}
-        </ul>
-      </div>
-    ` : ''}
-    ${has(e.tags) ? `
-      <div class="event__tags">
-        <h4 class="event__section-title">Temi</h4>
-        <ul class="event__tags">
-          ${e.tags.map(Tag).join('')}
-        </ul>
-      </div>
-    ` : ''}
-    ${has(e.hashtag) ? `
-      <div class="event__hashtag">
-        <h4 class="event__section-title">Hashtag dell'evento</h4>
-        <div class="event__hashtag">#${e.hashtag}</div>
-      </div>
-    ` : ''}
-    ${has(e.eventbrite) ? `
-      <div class="event__eventbrite">
-        <h4 class="event__section-title">Prenota il tuo posto</h4>
-        <a class="eventbrite__link" href="${e.eventbrite}">Eventbrite</a>
-      </div>
-    ` : ''}
-    ${has(e.facebook) ? `
-      <div class="event__facebook">
-        <h4 class="event__section-title">Fai girare la voce</h4>
-        <a class="facebook__link" href="${e.facebook}">Facebook</a>
-      </div>
-    ` : ''}
+    ${Title(e.title)}
+    ${Subtitle(e.subtitle)}
+    ${Speakers(e.speakers)}
+    ${Abstract(e.abstract)}
+    ${Schedule(e.schedule)}
+    ${Tags(e.tags)}
+    ${Hashtag(e.hashtag)}
+    ${Eventbrite(e.eventbrite)}
+    ${Facebook(e.facebook)}
   </div>
 `
 
