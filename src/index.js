@@ -1,19 +1,17 @@
 import './style.styl'
-import { mount, el } from 'redom'
 import { Event } from './components'
 import { events } from './events' 
 import logo from './assets/brewbox-logo.svg'
 
-console.log(logo)
+const app = `
+  <main class="wrapper">
+    <div class="logo">
+      <img class="logo__image" src="${logo}" alt="BrewBox"/>
+    </div>
+    <ul class="events">
+      ${events.map(Event).join('')}
+    </ul>
+  </main>
+`
 
-const app = el('main.wrapper', [
-  el('.logo',
-    el('img.logo__image', { 
-      src: logo, 
-      alt: 'BrewBox\'s logo' 
-    })
-  ),
-  el('ul.events', events.map(Event))
-])
-
-mount(document.body, app)
+document.body.innerHTML = app
