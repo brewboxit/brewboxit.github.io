@@ -8,7 +8,13 @@ const md = new Remarkable({
 const has = x => !!x && (x.length > 0)
 const optional = template => data => has(data) ? template(data) : ''
 
-const Speaker = s => `
+const list = classNames => itemRenderer => optional(items => `
+  <ul class="${classNames}">
+    ${items.map(itemRenderer).join('')}
+  </ul>
+`)
+
+const SpeakerList = list('speakers__list')(s => `
   <li class="speaker">
     <span class="speaker__name">${s.name}</span>
     <span class="speaker__surname">${s.surname}</span>
@@ -18,18 +24,18 @@ const Speaker = s => `
       </span>
     `}
   </li>
-`
+`)
 
-const Activity = a => `
+const ScheduleList = list('event__schedule-list')(a => `
   <li class="schedule-entry">
     <img class="schedule-entry__img" src="${hop}" />
     <span class="schedule-entry__start">${a.start}</span>
     <span class="schedule-entry__end">${a.end}</span>
     <span class="schedule-entry__activity">${a.activity}</span>
   </li>
-`
+`)
 
-const Tag = optional(t => `
+const TagList = list('event__tags')(t => `
   <li class="tags__tag">${t}</li>
 `)
 
@@ -44,9 +50,7 @@ const Subtitle = optional(s => `
 const Speakers = optional(s => `
   <div class="event__speakers">
     <span>by</span>
-    <ul class="speakers__list">
-      ${s.map(Speaker)}
-    </ul>
+    ${SpeakerList(s)}
   </div>
 `)
 
@@ -57,18 +61,14 @@ const Abstract = optional(a => `
 const Schedule = optional(s => `
   <div class="event__schedule">
     <h4 class="event__section-title">Programma della serata</h4>
-    <ul class="event__schedule-list">
-      ${s.map(Activity).join('')}
-    </ul>
+    ${ScheduleList(s)}
   </div>
 `)
 
 const Tags = optional(t => `
   <div class="event__tags">
     <h4 class="event__section-title">Temi</h4>
-    <ul class="event__tags">
-      ${t.map(Tag).join('')}
-    </ul>
+    ${TagList(t)}
   </div>
 `)
 

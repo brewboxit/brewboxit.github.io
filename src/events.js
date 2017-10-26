@@ -25,8 +25,7 @@ const events = [{
   date: '2017-09-27',
   title: 'DevSecOps and the hunter-farmer model',
   subtitle: 'Aka anthropology of a schizophrenic job.',
-  abstract: `
-    Da qualche tempo è buona prassi accorpare sviluppo e operazioni.
+  abstract: `Da qualche tempo è buona prassi accorpare sviluppo e operazioni.
     Che dire invece della sicurezza?
     Ha senso incorporare nei processi di sviluppo metodologie che si pongano l'obiettivo di instillare il dubbio,
     e che richiedano che sia fornito l'onere della falsificabilità fin dai primi momenti della produzione?
