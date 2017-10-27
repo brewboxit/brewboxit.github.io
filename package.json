@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "dev": "webpack-dev-server --color",
+    "build": "rm -rf ./dist/* && webpack -p --config webpack.prod.js",
+    "dev": "webpack-dev-server --color --config webpack.dev.js",
     "start": "npm run dev",
-    "publish": "gh-pages --dist dist --branch master --tag `date +v%y.%m.%d.%H%M` --message publish --no-push",
+    "publish": "gh-pages --dist dist --branch master --tag `date +v%y.%m.%d.%H%M` --message publish",
     "deploy": "npm run build && npm run publish"
   },
   "repository": {
@@ -31,6 +31,7 @@
   "devDependencies": {
     "babel-core": "6.26.0",
     "babel-loader": "7.1.2",
+    "babel-minify-webpack-plugin": "0.2.0",
     "babel-preset-env": "1.6.0",
     "css-loader": "0.28.7",
     "cssnano": "^3.10.0",

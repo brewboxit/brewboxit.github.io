@@ -1,5 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const MinifyPlugin = require("babel-minify-webpack-plugin")
 
 const config = {
   entry: './src/index.js',
@@ -7,8 +8,6 @@ const config = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
   },
-  // resolve: { extensions: ['', '.js', '.json', '.styl', '*'] },
-  devtool: 'source-map',
   module: {
     rules: [{
       test: /\.js$/,
@@ -22,7 +21,7 @@ const config = {
       use: [
         'style-loader',
         'css-loader',
-        { loader: 'postcss-loader', options: { sourceMap: true } },
+        { loader: 'postcss-loader', options: { sourceMap: false } },
         'stylus-loader',
       ],
     }, {
@@ -31,7 +30,8 @@ const config = {
     }],
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: './src/index.html' })
+    new HtmlWebpackPlugin({ template: './src/index.html' }),
+    new MinifyPlugin({ removeConsole: true, removeDebugger: true }),
   ],
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
