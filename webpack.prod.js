@@ -1,5 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin')
 const MinifyPlugin = require("babel-minify-webpack-plugin")
 
 const config = {
@@ -31,6 +32,7 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({ template: './src/index.html' }),
+    new ScriptExtHtmlWebpackPlugin({ defaultAttribute: 'async' }),
     new MinifyPlugin({ removeConsole: true, removeDebugger: true }),
   ],
   devServer: {
