@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "dev": "webpack-dev-server --color",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "publish": "gh-pages --dist dist --branch master --tag `date +v%y.%m.%d.%H%M` --message publish --no-push",
+    "deploy": "npm run build && npm run publish"
   },
   "repository": {
     "type": "git",
@@ -33,6 +35,7 @@
     "css-loader": "0.28.7",
     "cssnano": "^3.10.0",
     "file-loader": "1.1.5",
+    "gh-pages": "1.0.0",
     "html-webpack-plugin": "2.30.1",
     "postcss": "6.0.13",
     "postcss-loader": "2.0.6",
