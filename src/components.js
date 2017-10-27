@@ -43,6 +43,16 @@ const Title = optional(t => `
   <h3 class="event__title">${t}</h3>
 `)
 
+const When = optional(d => `
+  <div class="event__date">${
+    new Date(d).toLocaleDateString('it-IT', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+    })
+  }</div>
+`)
+
 const Subtitle = optional(s => `
   <h4 class="event__subtitle">${s}</h4>
 `)
@@ -95,6 +105,7 @@ const Facebook = optional(f => `
 
 const Event = e => `
   <div class="event event--${e.status}">
+    ${When(e.date)}
     ${Title(e.title)}
     ${Subtitle(e.subtitle)}
     ${Speakers(e.speakers)}
