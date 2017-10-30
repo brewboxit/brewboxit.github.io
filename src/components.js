@@ -118,4 +118,19 @@ const Event = e => `
   </div>
 `
 
-export { Event }
+const Footer = () =>`
+  <footer class="footer">
+    <div>
+      <div class="footer__left">
+        <span>&copy;2017 BrewBox Community -</span>
+        <span><a class="footer__link" href="https://github.com/brewboxit/brewboxit.github.io" target="_blank">Source Code</a></span>
+      </div>
+      <div class="footer__right">
+        <span><a class="footer__link" href="https://www.facebook.com/brewboxcommunity/" target="_blank">Facebook</a></span>
+        <span><a class="footer__link" href="https://twitter.com/brewboxit" target="_blank">Twitter</a></span>
+      </div>
+    </div>
+  </footer>
+`
+
+export { Event, Footer }

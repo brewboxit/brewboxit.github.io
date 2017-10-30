@@ -1,5 +1,5 @@
 import './style.styl'
-import { Event } from './components'
+import { Event, Footer } from './components'
 import { events } from './events'
 import { loadFonts } from './fonts'
 import logo from './assets/brewbox-logo.svg'
@@ -15,6 +15,7 @@ const app = `
       ${events.map(Event).join('')}
     </ul>
   </main>
+  ${Footer()}
 `
 
 document.body.innerHTML = app

@@ -9,7 +9,10 @@
  * VARS
  * ---------------------------------------- */
 
-yellow = #e0a126
+brand_yellow = #e0a126
+tablet = 'screen and (max-width 54rem)'
+tablet_mw = 'screen and (min-width 54rem)'
+phone = 'screen and (max-width 34rem)'
 
 
 /*
@@ -26,7 +29,7 @@ a
   color inherit
 
 main.wrapper
-  max-width 50rem
+  max-width 48rem
   margin 0 auto
   padding 0 1rem
 
@@ -35,6 +38,12 @@ main.wrapper
   &__image 
     display block
     margin 0 auto
+    @media tablet
+      max-width 11rem
+    @media phone
+      max-width 9rem
+  @media tablet
+    padding 2.5rem 1.5rem
 
 .events
 .event__tags
@@ -53,19 +62,36 @@ main.wrapper
 .event
   padding 2.5rem
   margin-bottom 2rem
+  position relative
+  @media tablet
+    padding 2rem 1.5rem 1.5rem
   &__title
     font-size 2rem
     margin 0 0 .5rem
+    @media tablet
+      font-size 1.5rem
   &__date
-    font-size 1rem
-    float right
-    margin 0 0 .5rem
+    border 2px dashed brand_yellow
+    width auto
+    padding .5rem .4rem .4rem
+    display inline-block
+    line-height 1em
+    color brand_yellow
+    border-radius 2px
+    text-transform uppercase
+    letter-spacing 1px
+    margin-bottom .75rem
+    font-weight 400
   &__subtitle
-    font-size: 1.25rem
+    font-size 1.25rem
     margin 0 0 .5rem
+    @media tablet
+      font-size .95rem
   &__abstract 
-    line-height: 1.4em
+    line-height 1.4em
     color #CCC
+    @media tablet
+      display none
   &__eventbrite 
     iframe 
       border 0
@@ -73,18 +99,25 @@ main.wrapper
       min-height 25rem
       border-radius 2px
   &__speakers
-    padding: .5rem 0 1rem
+    padding .5rem 0 1rem
+    @media tablet
+      padding-bottom 0
   &__section-title
     text-transform uppercase
     letter-spacing 1px
-    color yellow
+    color brand_yellow
     font-size .8rem
     margin-top 2rem
     margin-bottom .75rem
+    @media tablet
+      margin-top: 1.4rem
   &__schedule
-    border-top: 4px double #3C3C3C
+    border-top 4px double #3C3C3C
     margin-top 1.5rem
     padding-top 1.5rem
+    @media tablet
+      margin-top 1rem
+      padding-top 1rem      
     .event__section-title
       margin-top 0
   &__tags
@@ -103,7 +136,7 @@ main.wrapper
   .schedule-entry
     list-style none
   .schedule-entry
-    margin-bottom: .45rem
+    margin-bottom .45rem
     > *
       display inline-block
       vertical-align middle
@@ -125,7 +158,7 @@ main.wrapper
     border 1px dashed #555
     margin-left 2rem
     margin-right 2rem
-    @media screen and (max-width 768px)
+    @media tablet
       margin-left 0
       margin-right 0
   &--current
@@ -137,13 +170,13 @@ main.wrapper
     .event__abstract
       color #656565
     .event__schedule
-      border-color: #EEE
+      border-color #EEE
     .schedule-entry__activity
       border-color #BBB
     .event__tags
       .tags__tag
         background #232323
-        color: #FFF
+        color #FFF
 
 /*
  * SPEAKERS & SPEAKER
@@ -151,11 +184,53 @@ main.wrapper
 
 .speakers__list
 .speaker
-  display: inline-block
+  display inline-block
 .speaker 
   &__name
   &__surname
   .twitter
-    margin-left .3rem
+    margin-left .1rem
   .twitter
-    color yellow
+    color brand_yellow
+  @media phone
+    font-size .8rem
+
+.footer
+  &__left
+  &__right
+    font-family monospace
+    font-size .8rem
+    color #888
+    a  
+      text-decoration none
+      &:hover 
+        color brand_yellow
+
+@media tablet
+  .footer
+    padding 1rem
+    text-align center
+    &__left
+    &__right
+      padding .25rem 0
+
+@media tablet_mw
+  .footer
+    width 100%
+    position fixed
+    top 50%
+    transform translateY(-50%)
+      position relative
+    > div
+      position relative
+    &__left
+    &__right
+      position absolute
+      transform-origin left
+    &__left
+      left 2rem
+      transform rotate(-90deg) translateX(-50%)
+    &__right
+      right 2rem
+      transform rotate(90deg) translateX(50%)
+      transform-origin: right
