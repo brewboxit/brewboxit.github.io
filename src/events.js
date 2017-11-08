@@ -1,5 +1,33 @@
 const events = [{
   status: 'current',
+  speakers: [{
+    name: 'Lino',
+    surname: 'Telera',
+    email: '',
+    twitter: 'linotelera',
+    bio: `Lino is a Software developer and system integrator since 2001, system administrator and virtualization specialist since 2008.
+    He's now working as Cloud specialist and Cloud integrator in an Italian service provider.
+    Lino is also a VMUG.it board member and TechFieldDay delegate.
+    He loves blogging, mentoring and coaching for Cloud Native Applications.`,
+  }],
+  date: '2017-11-23',
+  title: 'Deep Dive into Serverless',
+  abstract: `Un'introduzione verso metodi e tecniche per lo sviluppo in ambiente serverless.
+
+  Strumenti, codice, device e tanto cloud saranno gli ingredienti principali per costruire applicazioni e integrazioni software di ultima generazione.`,
+  schedule: [
+    { activity: 'Aperitivo', start: '18:30', end: '19:30' },
+    { activity: 'Talk', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
+  ],
+  tags: [ 'serverless', 'cloud', 'development' ],
+  hashtag: 'bboxsl',
+  eventbrite: '',
+  facebook: '',
+  video: '',
+  slides: '',
+}, {
+  status: 'past',
   speakers: [{ name: 'Mariachiara', surname: 'Pezzotti', email: '', twitter: 'merissimissima' }],
   date: '2017-10-30',
   title: 'Experience Matters!',
