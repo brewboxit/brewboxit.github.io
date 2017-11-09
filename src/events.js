@@ -5,16 +5,19 @@ const events = [{
     surname: 'Telera',
     email: '',
     twitter: 'linotelera',
-    bio: `Lino is a Software developer and system integrator since 2001, system administrator and virtualization specialist since 2008.
-    He's now working as Cloud specialist and Cloud integrator in an Italian service provider.
-    Lino is also a VMUG.it board member and TechFieldDay delegate.
-    He loves blogging, mentoring and coaching for Cloud Native Applications.`,
   }],
   date: '2017-11-23',
   title: 'Deep Dive into Serverless',
-  abstract: `Un'introduzione verso metodi e tecniche per lo sviluppo in ambiente serverless.
-
-  Strumenti, codice, device e tanto cloud saranno gli ingredienti principali per costruire applicazioni e integrazioni software di ultima generazione.`,
+  abstract: `Lino is a Software developer and system integrator since 2001, system administrator and virtualization specialist since 2008.
+  He's now working as Cloud specialist and Cloud integrator in an Italian service provider.
+  Lino is also a VMUG.it board member and TechFieldDay delegate.
+  He loves blogging, mentoring and coaching for Cloud Native Applications, you can find his blog posts on http://blog.linoproject.net
+  
+  In questo talk Lino ci introdurrà i metodi e le tecniche per lo sviluppo in ambiente serverless.
+  
+  Strumenti, codice, device e tanto cloud saranno gli ingredienti principali per costruire applicazioni e integrazioni software di ultima generazione.
+  
+  In altre parole... dove vai se il cloud non ce l'hai? :D`,
   schedule: [
     { activity: 'Aperitivo', start: '18:30', end: '19:30' },
     { activity: 'Talk', start: '19:30', end: '20:30' },
@@ -22,8 +25,8 @@ const events = [{
   ],
   tags: [ 'serverless', 'cloud', 'development' ],
   hashtag: 'bboxsl',
-  eventbrite: '',
-  facebook: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-deep-dive-into-serverless-39723504070?aff=es2#tickets',
+  facebook: 'https://www.facebook.com/events/1618103634879278',
   video: '',
   slides: '',
 }, {
