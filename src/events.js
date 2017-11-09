@@ -8,10 +8,7 @@ const events = [{
   }],
   date: '2017-11-23',
   title: 'Deep Dive into Serverless',
-  abstract: `Lino is a Software developer and system integrator since 2001, system administrator and virtualization specialist since 2008.
-  He's now working as Cloud specialist and Cloud integrator in an Italian service provider.
-  Lino is also a VMUG.it board member and TechFieldDay delegate.
-  He loves blogging, mentoring and coaching for Cloud Native Applications, you can find his blog posts [here](http://blog.linoproject.net)
+  abstract: `Lino is a Software developer and system integrator since 2001, system administrator and virtualization specialist since 2008. He's now working as Cloud specialist and Cloud integrator in an Italian service provider. Lino is also a VMUG.it board member and TechFieldDay delegate. He loves blogging, mentoring and coaching for Cloud Native Applications, you can find his blog posts [here](http://blog.linoproject.net).
   
   In questo talk Lino ci introdurrà i metodi e le tecniche per lo sviluppo in ambiente serverless.
   
