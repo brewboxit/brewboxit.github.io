@@ -1,5 +1,41 @@
 const events = [{
   status: 'current',
+  date: '2017-12-11',
+  title: '🎅 Beerettone 2017!',
+  abstract: `Per il Beerettone 2017 ci siamo inventati un evento particolare, per realizzarlo ci serve il **tuo** aiuto! :)
+  
+  La formula è la **TalkAnarchy**. Avete presente quando, solitamente dopo qualche birra, si creano gruppetti di persone che in maniera informale e casuale parlano di argomenti nerd, nuovi linguaggi, fanta-idee e proof-of-concept? Ecco. Questo è il regalo che abbiamo chiesto a Babbo Natale.
+   
+  ## Come funziona
+  Niente sala, niente proiettore, ma ovviamente sì alla birra! Si svolgerà tutto al [Cookies bar & lunch](https://www.facebook.com/cookiesbarlunch/).
+  
+  Ci saranno diverse **TopicArea** ovvero piccole postazioni curate da una persona o da un gruppo, in cui si parlerà di un argomento. I partecipanti potranno spostarsi da una TopicArea all'altra (aperitivo alla mano) e ascoltare i diversi argomenti nella più totale anarchia!
+   
+  ## Ok, ora è il tuo momento!
+  In cosa consiste una TopicArea? Semplice: ci piacerebbe che tu condividessi con noi una tua esperienza, qualcosa su cui hai lavorato, un libro che hai letto, uno strumento che hai trovato utile, o semplicemente un’idea che ti gira per la testa da tempo, purché abbia a che fare con la tecnologia!
+  
+  Immagina un mini discorso di massimo 15 minuti per raccontare il tuo argomento e porta con te quello di cui hai bisogno. Hai delle slide? Porta un portatile attorno al quale chi si fermerà alla tua Topic Area si fermerà ad ascoltare. Hai moddato un furby? Non aspettiamo altro che poterci giocare!
+   
+  L'evento sarà molto informale, puoi gestire la chiacchierata assolutamente come vuoi, niente paura!
+
+  Compila il modulo che trovi al link qui sotto e proponi l'idea della tua TopicArea!
+
+  [Proposta TopicArea Beerettone 2017](https://goo.gl/forms/Cx4IGpvMIIUIZnjI3)
+
+  ## La cena di Natale
+  Una volta terminati gli interventi alle TopicAreas ci sarà venuta una fame da lupi, per cena il bar ci preparerà **risotto con stinco alla birra** e l'immancabile...**panettone**!
+
+  Dovendo gestire la cena, per questo evento sono particolarmente importanti le **prenotazioni** su Eventbrite, non mancate!
+  `,
+  schedule: [
+    { activity: 'Aperitivo e TopicAreas', start: '19:00', end: '20:00' },
+    { activity: 'Cena (per chi vuole)', start: '20:00', end: '22:00' },
+  ],
+  tags: [ 'beer', 'panettone', 'christmas', 'babbo', 'natale', 'talkanarchy' ],
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-beerettone-2017-40801258663',
+  facebook: 'https://www.facebook.com/events/490027781390617',
+}, {
+  status: 'past',
   speakers: [{
     name: 'Lino',
     surname: 'Telera',
