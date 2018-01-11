@@ -1,5 +1,31 @@
 const events = [{
   status: 'current',
+  speakers: [{
+    name: 'Roberto',
+    surname: 'Albertini',
+    email: '',
+    twitter: 'robalbertini',
+  }],
+  date: '2018-01-29',
+  title: 'Refactoring: sempre, senza pietà!',
+  abstract: `La qualità del codice che maneggiamo tutti i giorni è molto importante ma difficile da ottenere. Non si tratta di un traguardo da raggiungere ma di un processo di continuo miglioramento.
+
+  Nel talk vedremo quali sono le più comuni debolezze del codice, vedremo come sia possibile manipolarlo senza paura e come approfittare di ogni occasione per migliorarlo seguendo alcuni principi di design.
+  
+  Alzi la mano chi non ha a che fare con del codice legacy ogni giorno! ...se l'avete alzata, non potete mancare a questo talk! ;)`,
+  schedule: [
+    { activity: 'Aperitivo', start: '18:30', end: '19:30' },
+    { activity: 'Talk', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
+  ],
+  tags: [ 'refactoring', 'development', 'legacy', 'code' ],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-refactoring-sempre-senza-pieta-42101280062?aff=es2#tickets',
+  facebook: '',
+  video: '',
+  slides: '',
+}, {
+  status: 'past',
   date: '2017-12-11',
   title: '🎅 Beerettone 2017!',
   abstract: `Per il Beerettone 2017 ci siamo inventati un evento particolare, per realizzarlo ci serve il **tuo** aiuto! :)
