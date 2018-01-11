@@ -21,7 +21,7 @@ const events = [{
   tags: [ 'refactoring', 'development', 'legacy', 'code' ],
   hashtag: '',
   eventbrite: 'https://www.eventbrite.it/e/biglietti-refactoring-sempre-senza-pieta-42101280062?aff=es2#tickets',
-  facebook: '',
+  facebook: 'https://www.facebook.com/events/1673978505997779',
   video: '',
   slides: '',
 }, {
