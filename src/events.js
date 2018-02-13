@@ -1,6 +1,32 @@
 const events = [{
   status: 'current',
   speakers: [{
+    name: 'Luca',
+    surname: 'Bravo',
+    email: '',
+    twitter: 'hz',
+  }],
+  date: '2018-02-27',
+  title: 'Explore the Basics of Color Grading',
+  abstract: `Cosa si intende per color correction e color grading? Il primo passo per rispondere a questa domanda è comprendere come il colore possa definire le nostre esperienze sensoriali, descrivere ambienti, esprimere emozioni, evocare sensazioni e atmosfere. Il colore è alla base della nostra visione e curare questo aspetto nelle nostre foto può cambiarne completamente la percezione.
+
+  In questo talk Luca Bravo ci parlerà del suo personale workflow digitale e di come questo gli ha permesso di diventare uno dei "Photographer of the year", promossi dalla piattaforma [Unsplash](https://unsplash.com/), ottenendo così milioni di visualizzazioni e pubblicazioni in alcune grandi testate di fama internazionale.
+  
+  Se vi siete mai chiesti come migliorare le vostre fotografie, _anche fatte con lo smartphone [n.d.r.]_, o semplicemente siete sempre stati curiosi di come nasca "una bella fotografia" non potete mancare a questo talk! 📸`,
+  schedule: [
+    { activity: 'Aperitivo', start: '18:30', end: '19:30' },
+    { activity: 'Talk', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
+  ],
+  tags: [ 'photography', 'color correction', 'color grading', 'unsplash', 'instagram' ],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-explore-the-basics-of-color-grading-43119859661?aff=erelexpmlt#tickets',
+  facebook: 'https://www.facebook.com/events/2014092938808713/',
+  video: '',
+  slides: '',
+}, {
+  status: 'past',
+  speakers: [{
     name: 'Roberto',
     surname: 'Albertini',
     email: '',
