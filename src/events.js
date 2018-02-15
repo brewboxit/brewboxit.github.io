@@ -1,7 +1,7 @@
 const events = [{
   status: 'current',
   speakers: [{
-    name: 'Mario',
+    name: 'Luca',
     surname: 'Bravo',
     email: '',
     twitter: 'hz',
