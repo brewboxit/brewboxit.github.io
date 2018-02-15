@@ -103,6 +103,13 @@ const Facebook = optional(f => `
   </div>
 `)
 
+const Video = optional(v => `
+  <div class="event__video">
+    <h4 class="event__section-title">Rivedi l'evento</h4>
+    <a class="video__link" href="${v}">Video</a>
+  </div>
+`)
+
 const Event = e => `
   <div class="event event--${e.status}">
     ${When(e.date)}
@@ -115,6 +122,7 @@ const Event = e => `
     ${Hashtag(e.hashtag)}
     ${Eventbrite(e.eventbrite)}
     ${Facebook(e.facebook)}
+    ${Video(e.video)}
   </div>
 `
 

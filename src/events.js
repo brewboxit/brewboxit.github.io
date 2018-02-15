@@ -48,7 +48,7 @@ const events = [{
   hashtag: '',
   eventbrite: 'https://www.eventbrite.it/e/biglietti-refactoring-sempre-senza-pieta-42101280062?aff=es2#tickets',
   facebook: 'https://www.facebook.com/events/1673978505997779',
-  video: '',
+  video: 'https://www.youtube.com/watch?v=aQQWrQZYliU',
   slides: '',
 }, {
   status: 'past',
