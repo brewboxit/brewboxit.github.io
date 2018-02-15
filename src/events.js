@@ -112,7 +112,7 @@ const events = [{
   hashtag: 'bboxsl',
   eventbrite: 'https://www.eventbrite.it/e/biglietti-deep-dive-into-serverless-39723504070?aff=es2#tickets',
   facebook: 'https://www.facebook.com/events/1618103634879278',
-  video: '',
+  video: 'https://www.youtube.com/watch?v=NM6fIvqWocw',
   slides: '',
 }, {
   status: 'past',
@@ -133,7 +133,7 @@ const events = [{
   hashtag: 'bboxux',
   eventbrite: 'https://www.eventbrite.it/e/biglietti-experience-matters-38679232626?aff=es2#tickets',
   facebook: 'https://www.facebook.com/events/334984146965938',
-  video: '',
+  video: 'https://www.youtube.com/watch?v=HA-vTSoYcDQ',
   slides: '',
 }, {
   status: 'past',
@@ -161,7 +161,7 @@ const events = [{
   hashtag: 'bboxdevsecops',
   eventbrite: '37873199760',
   facebook: 'https://www.facebook.com/events/271940556656971',
-  video: '',
+  video: 'https://www.youtube.com/watch?v=31g0aX6uG0k',
   slides: '',
 }, {
   status: 'past',
@@ -183,7 +183,7 @@ const events = [{
   hashtag: '',
   eventbrite: '',
   facebook: '',
-  video: '',
+  video: 'https://www.youtube.com/watch?v=9ov5uz2hd5Y',
   slides: '',
 }, {
   status: 'past',
@@ -204,7 +204,7 @@ const events = [{
   hashtag: '',
   eventbrite: '',
   facebook: 'https://www.facebook.com/events/118230102085591',
-  video: '',
+  video: 'https://www.youtube.com/watch?v=RuR6epdvSaI',
   slides: '',
 }, {
   status: 'past',
@@ -227,7 +227,7 @@ const events = [{
   hashtag: '',
   eventbrite: '',
   facebook: 'https://www.facebook.com/events/1290590447690596',
-  video: '',
+  video: 'https://www.youtube.com/watch?v=_Po_Sza_qtw',
   slides: '',
 }, {
   status: 'past',
@@ -252,7 +252,7 @@ const events = [{
   hashtag: '',
   eventbrite: '',
   facebook: 'https://www.facebook.com/events/1116991255095909',
-  video: '',
+  video: 'https://www.youtube.com/watch?v=PAoJdRWcNzE',
   slides: '',
 }, {
   status: 'past',
@@ -274,7 +274,7 @@ const events = [{
   hashtag: '',
   eventbrite: '',
   facebook: 'https://www.facebook.com/events/447420418922408',
-  video: '',
+  video: 'https://www.youtube.com/watch?v=foFsQqIxEv4',
   slides: '',
 }, {
   status: 'past',
@@ -293,7 +293,7 @@ const events = [{
   hashtag: '',
   eventbrite: '',
   facebook: 'https://www.facebook.com/events/447420418922408',
-  video: '',
+  video: 'https://www.youtube.com/watch?v=yZxyVJEgxVg',
   slides: '',
 }]
 
