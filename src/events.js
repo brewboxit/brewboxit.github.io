@@ -295,6 +295,52 @@ const events = [{
   facebook: 'https://www.facebook.com/events/447420418922408',
   video: 'https://www.youtube.com/watch?v=yZxyVJEgxVg',
   slides: '',
+}, {
+  status: 'past',
+  speakers: [{name: 'Gilberto', surname: 'Girardi', email: '', twitter: 'gimbomix' }],
+  date: '2016-04-27',
+  title: 'La musica elettronica',
+  subtitle: 'il caso e tutto quanto',
+  abstract: `Durante questo incontro Gilberto Girardi (@gimbomix) ci accompagnerà alla scoperta dell'evoluzione della musica elettronica e delle tecnologie che hanno accompagnato questa trasformazione.
+Dai primi sintetizzatori fino a Garage band. Breve viaggio tra le tecnologie che hanno influenzato in modo diretto ed indiretto l'evoluzione del più trasversale dei generi musicali.
+
+Gli argomenti che verranno trattati:
+
+1- le origini della musica elettronica:i Block party di New York e il Krautrock della Germania Est;
+2- i due mondi si fondono in uno: Planet Rock;
+3- breve viaggio tra le tre colonne portanti della musica elettronica: i sintetizzatori, i campionatori e le batterie elettroniche;
+4- l'elettronica invade tutti i generi musicali;
+5- laboratorio: dal sintetizzatore monofonico passando alla drum machine analogica fino a Garage Band.
+`,
+  schedule: [],
+  tags: [],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-brewbox-presenta-la-musica-elettronica-il-caso-e-tutto-quanto-24808236102',
+  facebook: '',
+  video: '',
+  slides: '',
+}, {
+  status: 'past',
+  speakers: [{name: 'Federico', surname: 'Gandellini', email: '', twitter: 'gandellinux' },
+             {name: 'Samuele', surname: 'Verzi', email: '', twitter: 'samu_' } ],
+  date: '2016-03-09',
+  title: 'Let\'s play with AngularJS',
+  subtitle: '',
+  abstract: `In questo primo appuntamento di BrewBox vogliamo parlare di AngularJS.
+
+AngularJS è un framework JavaScript per lo sviluppo del frontend di applicazioni Web.
+Questa libreria copre quasi tutti gli aspetti della realizzazione di SPA (Single Page Application), presenta, infatti, strutture per la getione dei componenti, l'organizzazione delle viste, l'interazione con l'utente e l'interfacciamento con API esterne.
+
+A raccontarci questo framework saranno Samuele (@samu_) e Federico (@gandellinux) che stanno lavorando con AngularJS da più di un anno in una applicazione di medie dimensioni.
+Nel primo appuntamento BrewBox faranno una veloce carrellata sui concetti base con il supporto di codice live.
+`,
+  schedule: [],
+  tags: [],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-brewbox-presenta-angularjs-22411410131',
+  facebook: '',
+  video: '',
+  slides: 'http://slides.com/samueleverzi/letsplaywithangularjs',
 }]
 
 export { events }
