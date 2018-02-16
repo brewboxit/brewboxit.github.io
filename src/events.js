@@ -318,6 +318,23 @@ Che il marubino sia con te!
   slides: '',
 }, {
   status: 'past',
+  date: '2016-12-22',
+  title: 'Beerettone 2016',
+  abstract: `I have a beer...
+I have a panettone...
+Uh!
+Beerettone!!!
+
+Natale è alle porte e impazzano le cene e le feste! BrewBox non e' da meno e vuole invitarvi giovedì 22 dicembre in Cobox per fare quattro chiacchiere, scambiarci gli auguri, mangiare una fetta di panettone e brindare, ovviamente con della birra!
+
+I nostri elfi, noleggiati da Babbo Natale, hanno preparato una piccola sorpresa per tutti i partecipanti, quindi non mancate!
+`,
+  schedule: [ ],
+  tags: [ ],
+  eventbrite: '',
+  facebook: 'https://www.facebook.com/events/433354340386183/',
+}, {
+  status: 'past',
   speakers: [{name: 'Paolo', surname: 'Camozzi', email: '', twitter: 'pcamoz' }],
   date: '2016-11-24',
   title: 'Internet killed the radio stars',
