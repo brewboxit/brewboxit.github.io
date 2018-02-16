@@ -159,17 +159,14 @@ const events = [{
   ],
   tags: [ 'devsecops', 'security', 'devops', 'hunter', 'farmer', 'hacker', 'developer' ],
   hashtag: 'bboxdevsecops',
-  eventbrite: '37873199760',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-devsecops-and-the-hunter-farmer-model-37873199760',
   facebook: 'https://www.facebook.com/events/271940556656971',
   video: 'https://www.youtube.com/watch?v=31g0aX6uG0k',
   slides: '',
 }, {
   status: 'past',
-  speakers: [{
-    name: 'Daniele', surname: 'Crespi', email: '', twitter: 'CrespiDaniele',
-  }, {
-    name: 'Andrea', surname: 'Nelson Mauro', email: '', twitter: 'nelsonmau',
-  }],
+  speakers: [{ name: 'Daniele', surname: 'Crespi', email: '', twitter: 'CrespiDaniele', },
+             { name: 'Andrea', surname: 'Nelson Mauro', email: '', twitter: 'nelsonmau', }],
   date: '2017-06-27',
   title: 'Gli Open Data in Lombardia, tra Regione ed Enti Locali',
   subtitle: '',
@@ -181,8 +178,8 @@ const events = [{
     { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
   ],
   hashtag: '',
-  eventbrite: '',
-  facebook: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-gli-open-data-in-lombardia-tra-regione-ed-enti-locali-35514840845',
+  facebook: 'https://www.facebook.com/events/110215022926639/',
   video: 'https://www.youtube.com/watch?v=9ov5uz2hd5Y',
   slides: '',
 }, {
@@ -202,17 +199,14 @@ const events = [{
     { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
   ],
   hashtag: '',
-  eventbrite: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-from-online-training-courses-to-mooc-34607159947',
   facebook: 'https://www.facebook.com/events/118230102085591',
   video: 'https://www.youtube.com/watch?v=RuR6epdvSaI',
   slides: '',
 }, {
   status: 'past',
-  speakers: [{
-    name: 'Daniele', surname: 'Giussani', email: '', twitter: '',
-  },{
-    name: 'Corrado', surname: 'Ignoti', email: '', twitter: 'corradoignoti',
-  }],
+  speakers: [{ name: 'Daniele', surname: 'Giussani', email: '', twitter: '', },
+    { name: 'Corrado', surname: 'Ignoti', email: '', twitter: 'corradoignoti', }],
   date: '2017-04-27',
   title: 'È LoRa dell\'IoT',
   subtitle: '',
@@ -225,7 +219,7 @@ const events = [{
     { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
   ],
   hashtag: '',
-  eventbrite: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-e-lora-delliot-33410414449',
   facebook: 'https://www.facebook.com/events/1290590447690596',
   video: 'https://www.youtube.com/watch?v=_Po_Sza_qtw',
   slides: '',
@@ -250,10 +244,37 @@ const events = [{
     { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
   ],
   hashtag: '',
-  eventbrite: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-pianificazione-adattiva-32947991329',
   facebook: 'https://www.facebook.com/events/1116991255095909',
   video: 'https://www.youtube.com/watch?v=PAoJdRWcNzE',
   slides: '',
+}, {
+  status: 'past',
+  date: '2017-03-14',
+  title: 'Marubino Night',
+  subtitle: 'Ovvero festeggiamo insieme il primo compleanno di Brewbox!', 
+  abstract: `Ebbene sì! E’ già passato un anno! Sembra ieri che armeggiavamo in Cobox con proiettori, amplificatori e chitarre, chiedendoci (sinceramente) se avremmo riempito la sala con più di dieci persone. Beh. E’ andata meglio di ogni nostra aspettativa! Per questo abbiamo deciso di festeggiare il primo anno della nostra Community Cremonese, passando una serata insieme, attorno ad un tavolo, con dell’ottimo cibo per concederci un momento di chiacchiera, rigorosamente nerd.
+
+L’appuntamento è per martedì 14 Marzo, ore 19:30 al Bar Sport di Costa Sant’Abramo.
+
+Per cosa è famoso il Bar Sport? Ma ovviamente per i Marubini!
+
+Il costo della cena è di 30€, e prevede antipasti, marubini in brodo, un secondo di lessi e arrosti, dolce, vino, acqua, caffè, amaro. 
+Se non sei mai stato al Bar Sport, preparati psicologicamente e soprattutto… non mangiare troppo a pranzo ;)
+
+Se sei vegetariano: avvisaci! Ci accorderemo per un menu ad-hoc.
+
+Come funziona:
+Tramite Eventbrite (solo tramite Eventbrite) , prenoti il tuo posto a tavola. Il pagamento si farà direttamente al ristorante. Se prenoti e decidi di non venire, ti chiediamo la cortesia di disdire per tempo, altrimenti la tua quota dovrà essere divisa fra i presenti (che in qualche maniera ti odieranno).
+
+I posti sono 30, quindi, affrettati a prenotare!
+
+Che il marubino sia con te!
+`,
+  schedule: [ ],
+  tags: [ ],
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-marubino-night-32462567413#',
+  facebook: 'https://www.facebook.com/events/398606743849285/',
 }, {
   status: 'past',
   speakers: [{
@@ -272,7 +293,7 @@ const events = [{
     { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
   ],
   hashtag: '',
-  eventbrite: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-321-code-in-container-31872896692#',
   facebook: 'https://www.facebook.com/events/447420418922408',
   video: 'https://www.youtube.com/watch?v=foFsQqIxEv4',
   slides: '',
@@ -281,7 +302,7 @@ const events = [{
   speakers: [{
     name: 'Michele', surname: 'Capra', email: '', twitter: 'piccoloaiutante',
   }],
-  date: '2017-02-21',
+  date: '2017-01-31',
   title: 'Microservices in practice with Seneca.js',
   subtitle: '',
   abstract: `Le architetture a microservices stanno cambiando rapidamente il modo in cui sviluppiamo le nostre applicazioni. L'aspetto fondamentale di queste architetture è il fatto di essere composte da componenti piccoli e fortemente disaccoppiati. Ma questa è la teoria, come possiamo veramente applicare questo pattern al nostro lavoro quotidiano? Come possiamo strutturare la nostra applicazione per ottenere il massimo dalle architetture a microservices? In questo talk, insieme a Michele Capra, cercheremo di dare una risposta a queste e altre domande con una introduzione al toolkit Seneca.js. Usando plugins, commands e altre funzionalità di Seneca.js vedremo come realizzare facilmente una applicazione Node.js che sfrutti i microservices.`,
@@ -291,9 +312,122 @@ const events = [{
     { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
   ],
   hashtag: '',
-  eventbrite: '',
-  facebook: 'https://www.facebook.com/events/447420418922408',
-  video: 'https://www.youtube.com/watch?v=yZxyVJEgxVg',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-microservice-in-practice-with-senecajs-31346962609#',
+  facebook: 'https://www.facebook.com/events/1089020151227317/',
+  video: 'https://www.youtube.com/watch?v=yZxyVJEgxVg&t=8s',
+  slides: '',
+}, {
+  status: 'past',
+  speakers: [{name: 'Paolo', surname: 'Camozzi', email: '', twitter: 'pcamoz' }],
+  date: '2016-11-24',
+  title: 'Internet killed the radio stars',
+  subtitle: 'realizzare una web radio in casa con 1 PC, 1 linea ADSL e abbondante colla vinilica',
+  abstract: `Il talk ha l’obiettivo di mostrare come utilizzare tecnologia a basso costo per realizzare una web radio casalinga/amatoriale. Verranno presentati gli elementi funzionali di una radio, i meccanismi di programmazione e rotazione musicale, l’hardware e software utilizzabili per un setup economico e funzionale. Ovviamente non mancheranno esempi e potremo vedere il setup in produzione a Radio Nero Carta Oro, web radio amatoriale indipendente.
+
+Per partecipare all'evento non è richiesto alcun prerequisito tecnico, se vi piace la musica vi divertirete un sacco! :D
+`,
+  schedule: [],
+  tags: [],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-internet-killed-the-radio-stars-29309842528',
+  facebook: '',
+  video: 'https://www.youtube.com/watch?v=obRtH6_zMBg',
+  slides: '',
+}, {
+  status: 'past',
+  speakers: [{name: 'Fabio', surname: 'Sangiovanni', email: '', twitter: 'sanjioh' }],
+  date: '2016-10-26',
+  title: 'Introduzione alla programmazione asincrona con Python e Twisted',
+  subtitle: '',
+  abstract: `Il modello d'esecuzione asincrono, sebbene non costituisca una tecnica di sviluppo di recente diffusione, negli ultimi anni ha raggiunto livelli di popolarità estremamente interessanti. Di cosa si tratta? In cosa si differenzia da modelli più tradizionali? Quali problemi risolve e quali difficoltà comporta? Utilizzando il framework Twisted, il talk introdurrà alla programmazione asincrona nel mondo Python, analizzando punti di forza e limiti di questa tecnologia e dando uno sguardo a cosa riserva il futuro.
+
+Per seguire al meglio l'intervento è necessaria una conoscenza base di concetti di sistemi operativi e del linguaggio Python.
+`,
+  schedule: [],
+  tags: [],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-introduzione-alla-programmazione-asincrona-con-python-e-twisted-28572557288#',
+  facebook: '',
+  video: 'https://www.youtube.com/watch?v=0hVKkZRKF8E',
+  slides: '',
+}, {
+  status: 'past',
+  speakers: [{name: 'Samuele', surname: 'Verzi', email: '', twitter: 'samu_' },
+             {name: 'Michele', surname: 'Mazzucco', email: '', twitter: 'michelemazzucco' }],
+  date: '2016-09-27',
+  title: 'YES we CSS! Awesome workflows with PostCSS',
+  subtitle: '',
+  abstract: `Il CSS non è altro che una “cascata” di regole che ci consentono di applicare stile ad una pagina o ad un’applicazione web, ma non solo! Negli ultimi anni abbiamo assistito a una rivoluzione, dall’uso di animazioni alla miriade di tools che ci hanno aiutato a semplificare la scrittura e il riuso.
+
+In questa caotica evoluzione nascono i preprocessori, ovvero degli “strumenti” in grado di semplificare queste operazioni. Ci siamo però ritrovati a dover dipendere da questi senza avere la possibilità di estenderli ed è proprio qui che entra in campo PostCSS, un “postprocessore” in grado di manipolare il CSS attraverso dei plugins Javascript. Questo fantastico ecosistema di plugins vi permetterà di controllare i vostri fogli di stile, scrivere con gli standard del futuro (CSS4) fin da subito e, perché no, abbandonare completamente il vostro preprocessore preferito.
+`,
+  schedule: [],
+  tags: [],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-yes-we-css-awesome-workflows-with-postcss-27623055302',
+  facebook: '',
+  video: 'https://www.youtube.com/watch?v=G0ABVENNogI',
+  slides: '',
+}, {
+  status: 'past',
+  speakers: [{name: 'Gianni Bortolo', surname: 'Bossini', email: '', twitter: 'bossinigianni' }],
+  date: '2016-06-28',
+  title: 'Qual è il colmo per un dev? avere ATTORI come amici!',
+  subtitle: '',
+  abstract: `All'inizio degli anni 70, Carl Hewitt introdusse un nuovo modello matematico di calcolo denominato Actor Model.
+L'Actor Model ha influenzato lo sviluppo di diversi linguaggi di programmazione, tra cui Erlang, Elixir e Scala.
+
+Ma perchè dedicare una delle migliori serate della Primavera/Estate 2016 all'Actor Model? Insieme cercheremo di capire cosa è l'Actor Model e perchè può essere un'arma in più nella vita quotidiana di ogni sviluppatore, indipendentemente dal linguaggio di programmazione.
+
+Durante la serata saranno presentati esempi di codice in C# sfruttando la libreria Akka.NET (porting del più famoso tool per Java), ma non è necessario conoscere il linguaggio per poter apprezzare i vantaggi di questo meraviglioso strumento.
+
+Può l'ennesima teoria degli anni 70 migliorare lo sviluppo di applicazioni nell'era del cloud computing? La risposta è... lo vedremo insieme!
+
+Argomenti:
+- Actor Model;
+- Concurrent programming;
+- Parallel programming;
+- Microservices;
+- Reactive application;
+- Enterprise Distributed Application;
+- Akka.net.
+
+Prerequisiti:
+- nozioni di programmazione (in qualsiasi linguaggio).
+`,
+  schedule: [],
+  tags: [],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-qual-e-il-colmo-per-un-dev-avere-attori-come-amici-26031687478#',
+  facebook: '',
+  video: 'https://www.youtube.com/watch?v=SjrdntZvBBs',
+  slides: '',
+}, {
+  status: 'past',
+  speakers: [{name: 'Emanuele', surname: 'Conti', email: '', twitter: 'emanuele_conti' }],
+  date: '2016-05-24',
+  title: 'Dati, dati, dati ovunque: come sopravvivere alla moda delle infografiche',
+  subtitle: '',
+  abstract: `La presentazione grafica è lo strumento attraverso il quale l’uomo,da sempre, ha cercato di analizzare e comprendere la complessità dei fenomeni che lo circondano.
+L’avvento di tecnologie in grado di registrare e archiviare grandissime quantità di dati ha trovato nell’analisi e nella visualizzazione dei dati il “medium” capace di rielaborare e tradurre le informazioni numeriche in forma visiva universalmente comprensibile.
+
+Emanuele Conti, grafico, docente e co-founder di Tuxtax (@thetuxtax) (laboratorio di analisi e visualizzazione di dati con base Milano e Losanna) ci racconterà, attraverso una serie di esempi (case histories) il processo creativo e gli strumenti utilizzati nella creazione di un’infografica, disciplina progettuale che abbraccia trasversalmente l’analisi statistica e il graphic design, convergendo sempre più spesso in forme interattive di data journalism.
+
+Programma dell'incontro:
+
+1- che cos’è un'infografica: progettare l’architettura dell’informazione;
+2- nascita ed evoluzione dell’infografica: cenni storici, dalle prime carte geografiche al data journalism;
+3- l’infografica in Italia: gli studi grafici ed i laboratori di ricerca italiani che si occupano di infografica;
+4- strumenti digitali per l’infografica: dal foglio di calcolo alle librerie di D3.js;
+5- case histories: esempi di visualizzazione di dati, dall’Inferno dantesco ai samples musicali utilizzati dei produttori di musica hip-hop;
+6- Infographics Lab: realizzazione di un’infografica in tempo reale.
+`,
+  schedule: [],
+  tags: [],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-dati-dati-dati-ovunque-come-sopravvivere-alla-moda-delle-infografiche-25227822095#',
+  facebook: '',
+  video: 'https://www.youtube.com/watch?v=1JpyIb9z9tc',
   slides: '',
 }, {
   status: 'past',
