@@ -1,11 +1,6 @@
 const events = [{
   status: 'current',
-  speakers: [{
-    name: 'Luca',
-    surname: 'Bravo',
-    email: '',
-    twitter: 'hz',
-  }],
+  speakers: [{ name: 'Luca', surname: 'Bravo', email: '', twitter: 'hz', }],
   date: '2018-02-27',
   title: 'Explore the Basics of Color Grading',
   abstract: `Cosa si intende per color correction e color grading? Il primo passo per rispondere a questa domanda è comprendere come il colore possa definire le nostre esperienze sensoriali, descrivere ambienti, esprimere emozioni, evocare sensazioni e atmosfere. Il colore è alla base della nostra visione e curare questo aspetto nelle nostre foto può cambiarne completamente la percezione.
@@ -26,12 +21,7 @@ const events = [{
   slides: '',
 }, {
   status: 'past',
-  speakers: [{
-    name: 'Roberto',
-    surname: 'Albertini',
-    email: '',
-    twitter: 'robalbertini',
-  }],
+  speakers: [{ name: 'Roberto', surname: 'Albertini', email: '', twitter: 'robalbertini', }],
   date: '2018-01-29',
   title: 'Refactoring: sempre, senza pietà!',
   abstract: `La qualità del codice che maneggiamo tutti i giorni è molto importante ma difficile da ottenere. Non si tratta di un traguardo da raggiungere ma di un processo di continuo miglioramento.
@@ -88,12 +78,7 @@ const events = [{
   facebook: 'https://www.facebook.com/events/490027781390617',
 }, {
   status: 'past',
-  speakers: [{
-    name: 'Lino',
-    surname: 'Telera',
-    email: '',
-    twitter: 'linotelera',
-  }],
+  speakers: [{ name: 'Lino', surname: 'Telera', email: '', twitter: 'linotelera', }],
   date: '2017-11-23',
   title: 'Deep Dive into Serverless',
   abstract: `Lino is a Software developer and system integrator since 2001, system administrator and virtualization specialist since 2008. He's now working as Cloud specialist and Cloud integrator in an Italian service provider. Lino is also a VMUG.it board member and TechFieldDay delegate. He loves blogging, mentoring and coaching for Cloud Native Applications, you can find his blog posts [here](http://blog.linoproject.net).
@@ -184,9 +169,7 @@ const events = [{
   slides: '',
 }, {
   status: 'past',
-  speakers: [{
-    name: 'Sergio', surname: 'Cigoli', email: '', twitter: 'cigucigu',
-  }],
+  speakers: [{ name: 'Sergio', surname: 'Cigoli', email: '', twitter: 'cigucigu', }],
   date: '2017-05-30',
   title: 'From online training courses to MOOC',
   subtitle: 'Formazione permanente per programmatori e non solo!',
@@ -225,9 +208,7 @@ const events = [{
   slides: '',
 }, {
   status: 'past',
-  speakers: [{
-    name: 'Roberto', surname: 'Albertini', email: '', twitter: 'robalbertini',
-  }],
+  speakers: [{ name: 'Roberto', surname: 'Albertini', email: '', twitter: 'robalbertini', }],
   date: '2017-03-28',
   title: 'Pianificazione Adattiva',
   subtitle: '',
@@ -277,9 +258,7 @@ Che il marubino sia con te!
   facebook: 'https://www.facebook.com/events/398606743849285/',
 }, {
   status: 'past',
-  speakers: [{
-    name: 'Lino', surname: 'Telera', email: '', twitter: 'linotelera',
-  }],
+  speakers: [{ name: 'Lino', surname: 'Telera', email: '', twitter: 'linotelera', }],
   date: '2017-02-21',
   title: '3,2,1 code in container',
   subtitle: '',
@@ -299,9 +278,7 @@ Che il marubino sia con te!
   slides: '',
 }, {
   status: 'past',
-  speakers: [{
-    name: 'Michele', surname: 'Capra', email: '', twitter: 'piccoloaiutante',
-  }],
+  speakers: [{ name: 'Michele', surname: 'Capra', email: '', twitter: 'piccoloaiutante', }],
   date: '2017-01-31',
   title: 'Microservices in practice with Seneca.js',
   subtitle: '',
