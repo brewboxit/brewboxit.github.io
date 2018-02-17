@@ -49,7 +49,7 @@ const events = [{
   eventbrite: 'https://www.eventbrite.it/e/biglietti-refactoring-sempre-senza-pieta-42101280062?aff=es2#tickets',
   facebook: 'https://www.facebook.com/events/1673978505997779',
   video: 'https://www.youtube.com/watch?v=aQQWrQZYliU',
-  slides: '',
+  slides: 'https://www.slideshare.net/RobertoAlbertini/2018-0129-brewbox-refactoring-sempre-senza-piet-88167873',
 }, {
   status: 'past',
   date: '2017-12-11',
@@ -247,7 +247,7 @@ const events = [{
   eventbrite: 'https://www.eventbrite.it/e/biglietti-pianificazione-adattiva-32947991329',
   facebook: 'https://www.facebook.com/events/1116991255095909',
   video: 'https://www.youtube.com/watch?v=PAoJdRWcNzE',
-  slides: '',
+  slides: 'https://www.slideshare.net/RobertoAlbertini/pianificazione-adattiva-brewbox-201703',
 }, {
   status: 'past',
   date: '2017-03-14',
@@ -347,9 +347,9 @@ Per partecipare all'evento non è richiesto alcun prerequisito tecnico, se vi pi
   tags: [],
   hashtag: '',
   eventbrite: 'https://www.eventbrite.it/e/biglietti-internet-killed-the-radio-stars-29309842528',
-  facebook: '',
+  facebook: 'https://www.facebook.com/events/1713978812262675/',
   video: 'https://www.youtube.com/watch?v=obRtH6_zMBg',
-  slides: '',
+  slides: 'http://slides.com/paolocamozzi/deck',
 }, {
   status: 'past',
   speakers: [{name: 'Fabio', surname: 'Sangiovanni', email: '', twitter: 'sanjioh' }],
@@ -366,7 +366,7 @@ Per seguire al meglio l'intervento è necessaria una conoscenza base di concetti
   eventbrite: 'https://www.eventbrite.it/e/biglietti-introduzione-alla-programmazione-asincrona-con-python-e-twisted-28572557288#',
   facebook: '',
   video: 'https://www.youtube.com/watch?v=0hVKkZRKF8E',
-  slides: '',
+  slides: 'http://slides.com/sanjioh/python-twisted',
 }, {
   status: 'past',
   speakers: [{name: 'Samuele', surname: 'Verzi', email: '', twitter: 'samu_' },
@@ -382,9 +382,9 @@ In questa caotica evoluzione nascono i preprocessori, ovvero degli “strumenti�
   tags: [],
   hashtag: '',
   eventbrite: 'https://www.eventbrite.it/e/biglietti-yes-we-css-awesome-workflows-with-postcss-27623055302',
-  facebook: '',
+  facebook: 'https://www.facebook.com/events/180146709076081/',
   video: 'https://www.youtube.com/watch?v=G0ABVENNogI',
-  slides: '',
+  slides: 'https://www.slideshare.net/MicheleMazzucco/postcss-brewbox-slides',
 }, {
   status: 'past',
   speakers: [{name: 'Gianni Bortolo', surname: 'Bossini', email: '', twitter: 'bossinigianni' }],
@@ -445,7 +445,7 @@ Programma dell'incontro:
   eventbrite: 'https://www.eventbrite.it/e/biglietti-dati-dati-dati-ovunque-come-sopravvivere-alla-moda-delle-infografiche-25227822095#',
   facebook: '',
   video: 'https://www.youtube.com/watch?v=1JpyIb9z9tc',
-  slides: '',
+  slides: 'https://www.dropbox.com/s/h215obe52vjrq0x/DatiOvunque_Cobox_24Maggio2016.pdf?dl=0',
 }, {
   status: 'past',
   speakers: [{name: 'Gilberto', surname: 'Girardi', email: '', twitter: 'gimbomix' }],
