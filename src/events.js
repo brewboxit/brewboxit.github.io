@@ -1,5 +1,24 @@
 const events = [{
   status: 'current',
+  speakers: [{ name: 'Alessandro', surname: 'Colla', email: '', twitter: 'collaalessandro', linkedin: 'https://www.linkedin.com/in/alessandrocolla', blog: 'http://www.alessandrocolla.com' }],
+  date: '2018-03-29',
+  title: 'Assistant, the conversational side of Google',
+  abstract: `Dobbiamo realizzare un bot conversazionale, quali sono gli strumenti a disposizione per prototipizzare e sviluppare? Che maturità hanno le piattaforme attualmente utilizzabili? Cosa è bene tenere presente prima, durante e dopo lo sviluppo? Questo talk cercherà di fare un po' di chiarezza e dare dei consigli pratici, dal concepimento alla pubblicazione, sulla base di ciò che Alessandro ha imparato dopo un anno e mezzo di sviluppo, usando DialogFlow, Google Assistant e Alexa.
+Ok Google, non voglio perdermelo!`,
+  bio: `Attualmente sono socio di Evoluzione Telematica, una web agency che si occupa principalmente di eCommerce. Come molti della mia generazione mi sono avvicinato alla programmazione quando mi regalarono un Commodore64: da li il passaggio dal giocare a cercare di fare un gioco fu breve e ho iniziato ad appassionarmi ai linguaggi. A 16 anni passai a un 8086 per poi seguire tutte le evoluzioni hardware, dei sistemi operativi e dei linguaggi di programmazione negli anni successivi. Nel corso di ormai più di venti anni, passati nel settore IT, ho sviluppato verticalizzazioni per gestionali e sviluppato da zero per i più disparati ambiti. Nel 2009 mi sono avvicinato al DDD e alle pratiche agili e da allora sono sempre "alla ricerca della verità". Negli ultimi tempi, oltre a occuparmi di eCommerce, ho anche realizzato applicazioni di realtà aumentata, chatbot e utilizzato strumenti come kinect, oculus rift e droni. Mi piacciono le lingue straniere e sono appassionato di arti marziali, pratico Krav Maga e nel tempo libero rimanente studio e rimango aggiornato sulla mia passione principale: la programmazione.`,
+  schedule: [
+    { activity: 'Aperitivo', start: '18:30', end: '19:30' },
+    { activity: 'Talk', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
+  ],
+  tags: [ 'chatbot', 'development', 'ok google', 'code' ],
+  hashtag: '',
+  eventbrite: '',
+  facebook: '',
+  video: '',
+  slides: '',
+}, {
+  status: 'past',
   speakers: [{ name: 'Luca', surname: 'Bravo', email: '', twitter: 'hz', }],
   date: '2018-02-27',
   title: 'Explore the Basics of Color Grading',
