@@ -1,11 +1,25 @@
 const events = [{
   status: 'current',
-  speakers: [{
-    name: 'Luca',
-    surname: 'Bravo',
-    email: '',
-    twitter: 'hz',
-  }],
+  speakers: [{ name: 'Alessandro', surname: 'Colla', email: '', twitter: 'collaalessandro', linkedin: 'https://www.linkedin.com/in/alessandrocolla', blog: 'http://www.alessandrocolla.com' }],
+  date: '2018-03-29',
+  title: 'Assistant, the conversational side of Google',
+  abstract: `Dobbiamo realizzare un bot conversazionale, quali sono gli strumenti a disposizione per prototipizzare e sviluppare? Che maturità hanno le piattaforme attualmente utilizzabili? Cosa è bene tenere presente prima, durante e dopo lo sviluppo? Questo talk cercherà di fare un po' di chiarezza e dare dei consigli pratici, dal concepimento alla pubblicazione, sulla base di ciò che Alessandro ha imparato dopo un anno e mezzo di sviluppo, usando DialogFlow, Google Assistant e Alexa.
+Ok Google, non voglio perdermelo!`,
+  bio: `Attualmente sono socio di Evoluzione Telematica, una web agency che si occupa principalmente di eCommerce. Come molti della mia generazione mi sono avvicinato alla programmazione quando mi regalarono un Commodore64: da li il passaggio dal giocare a cercare di fare un gioco fu breve e ho iniziato ad appassionarmi ai linguaggi. A 16 anni passai a un 8086 per poi seguire tutte le evoluzioni hardware, dei sistemi operativi e dei linguaggi di programmazione negli anni successivi. Nel corso di ormai più di venti anni, passati nel settore IT, ho sviluppato verticalizzazioni per gestionali e sviluppato da zero per i più disparati ambiti. Nel 2009 mi sono avvicinato al DDD e alle pratiche agili e da allora sono sempre "alla ricerca della verità". Negli ultimi tempi, oltre a occuparmi di eCommerce, ho anche realizzato applicazioni di realtà aumentata, chatbot e utilizzato strumenti come kinect, oculus rift e droni. Mi piacciono le lingue straniere e sono appassionato di arti marziali, pratico Krav Maga e nel tempo libero rimanente studio e rimango aggiornato sulla mia passione principale: la programmazione.`,
+  schedule: [
+    { activity: 'Aperitivo', start: '18:30', end: '19:30' },
+    { activity: 'Talk', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
+  ],
+  tags: [ 'chatbot', 'development', 'ok google', 'code' ],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-assistant-the-conversational-side-of-google-44163390891',
+  facebook: 'https://www.facebook.com/events/187179488727300/',
+  video: '',
+  slides: '',
+}, {
+  status: 'past',
+  speakers: [{ name: 'Luca', surname: 'Bravo', email: '', twitter: 'hz', }],
   date: '2018-02-27',
   title: 'Explore the Basics of Color Grading',
   abstract: `Cosa si intende per color correction e color grading? Il primo passo per rispondere a questa domanda è comprendere come il colore possa definire le nostre esperienze sensoriali, descrivere ambienti, esprimere emozioni, evocare sensazioni e atmosfere. Il colore è alla base della nostra visione e curare questo aspetto nelle nostre foto può cambiarne completamente la percezione.
@@ -26,12 +40,7 @@ const events = [{
   slides: '',
 }, {
   status: 'past',
-  speakers: [{
-    name: 'Roberto',
-    surname: 'Albertini',
-    email: '',
-    twitter: 'robalbertini',
-  }],
+  speakers: [{ name: 'Roberto', surname: 'Albertini', email: '', twitter: 'robalbertini', }],
   date: '2018-01-29',
   title: 'Refactoring: sempre, senza pietà!',
   abstract: `La qualità del codice che maneggiamo tutti i giorni è molto importante ma difficile da ottenere. Non si tratta di un traguardo da raggiungere ma di un processo di continuo miglioramento.
@@ -49,7 +58,7 @@ const events = [{
   eventbrite: 'https://www.eventbrite.it/e/biglietti-refactoring-sempre-senza-pieta-42101280062?aff=es2#tickets',
   facebook: 'https://www.facebook.com/events/1673978505997779',
   video: 'https://www.youtube.com/watch?v=aQQWrQZYliU',
-  slides: '',
+  slides: 'https://www.slideshare.net/RobertoAlbertini/2018-0129-brewbox-refactoring-sempre-senza-piet-88167873',
 }, {
   status: 'past',
   date: '2017-12-11',
@@ -88,12 +97,7 @@ const events = [{
   facebook: 'https://www.facebook.com/events/490027781390617',
 }, {
   status: 'past',
-  speakers: [{
-    name: 'Lino',
-    surname: 'Telera',
-    email: '',
-    twitter: 'linotelera',
-  }],
+  speakers: [{ name: 'Lino', surname: 'Telera', email: '', twitter: 'linotelera', }],
   date: '2017-11-23',
   title: 'Deep Dive into Serverless',
   abstract: `Lino is a Software developer and system integrator since 2001, system administrator and virtualization specialist since 2008. He's now working as Cloud specialist and Cloud integrator in an Italian service provider. Lino is also a VMUG.it board member and TechFieldDay delegate. He loves blogging, mentoring and coaching for Cloud Native Applications, you can find his blog posts [here](http://blog.linoproject.net).
@@ -184,9 +188,7 @@ const events = [{
   slides: '',
 }, {
   status: 'past',
-  speakers: [{
-    name: 'Sergio', surname: 'Cigoli', email: '', twitter: 'cigucigu',
-  }],
+  speakers: [{ name: 'Sergio', surname: 'Cigoli', email: '', twitter: 'cigucigu', }],
   date: '2017-05-30',
   title: 'From online training courses to MOOC',
   subtitle: 'Formazione permanente per programmatori e non solo!',
@@ -225,9 +227,7 @@ const events = [{
   slides: '',
 }, {
   status: 'past',
-  speakers: [{
-    name: 'Roberto', surname: 'Albertini', email: '', twitter: 'robalbertini',
-  }],
+  speakers: [{ name: 'Roberto', surname: 'Albertini', email: '', twitter: 'robalbertini', }],
   date: '2017-03-28',
   title: 'Pianificazione Adattiva',
   subtitle: '',
@@ -247,7 +247,7 @@ const events = [{
   eventbrite: 'https://www.eventbrite.it/e/biglietti-pianificazione-adattiva-32947991329',
   facebook: 'https://www.facebook.com/events/1116991255095909',
   video: 'https://www.youtube.com/watch?v=PAoJdRWcNzE',
-  slides: '',
+  slides: 'https://www.slideshare.net/RobertoAlbertini/pianificazione-adattiva-brewbox-201703',
 }, {
   status: 'past',
   date: '2017-03-14',
@@ -277,9 +277,7 @@ Che il marubino sia con te!
   facebook: 'https://www.facebook.com/events/398606743849285/',
 }, {
   status: 'past',
-  speakers: [{
-    name: 'Lino', surname: 'Telera', email: '', twitter: 'linotelera',
-  }],
+  speakers: [{ name: 'Lino', surname: 'Telera', email: '', twitter: 'linotelera', }],
   date: '2017-02-21',
   title: '3,2,1 code in container',
   subtitle: '',
@@ -299,9 +297,7 @@ Che il marubino sia con te!
   slides: '',
 }, {
   status: 'past',
-  speakers: [{
-    name: 'Michele', surname: 'Capra', email: '', twitter: 'piccoloaiutante',
-  }],
+  speakers: [{ name: 'Michele', surname: 'Capra', email: '', twitter: 'piccoloaiutante', }],
   date: '2017-01-31',
   title: 'Microservices in practice with Seneca.js',
   subtitle: '',
@@ -347,9 +343,9 @@ Per partecipare all'evento non è richiesto alcun prerequisito tecnico, se vi pi
   tags: [],
   hashtag: '',
   eventbrite: 'https://www.eventbrite.it/e/biglietti-internet-killed-the-radio-stars-29309842528',
-  facebook: '',
+  facebook: 'https://www.facebook.com/events/1713978812262675/',
   video: 'https://www.youtube.com/watch?v=obRtH6_zMBg',
-  slides: '',
+  slides: 'http://slides.com/paolocamozzi/deck',
 }, {
   status: 'past',
   speakers: [{name: 'Fabio', surname: 'Sangiovanni', email: '', twitter: 'sanjioh' }],
@@ -366,7 +362,7 @@ Per seguire al meglio l'intervento è necessaria una conoscenza base di concetti
   eventbrite: 'https://www.eventbrite.it/e/biglietti-introduzione-alla-programmazione-asincrona-con-python-e-twisted-28572557288#',
   facebook: '',
   video: 'https://www.youtube.com/watch?v=0hVKkZRKF8E',
-  slides: '',
+  slides: 'http://slides.com/sanjioh/python-twisted',
 }, {
   status: 'past',
   speakers: [{name: 'Samuele', surname: 'Verzi', email: '', twitter: 'samu_' },
@@ -382,9 +378,9 @@ In questa caotica evoluzione nascono i preprocessori, ovvero degli “strumenti�
   tags: [],
   hashtag: '',
   eventbrite: 'https://www.eventbrite.it/e/biglietti-yes-we-css-awesome-workflows-with-postcss-27623055302',
-  facebook: '',
+  facebook: 'https://www.facebook.com/events/180146709076081/',
   video: 'https://www.youtube.com/watch?v=G0ABVENNogI',
-  slides: '',
+  slides: 'https://www.slideshare.net/MicheleMazzucco/postcss-brewbox-slides',
 }, {
   status: 'past',
   speakers: [{name: 'Gianni Bortolo', surname: 'Bossini', email: '', twitter: 'bossinigianni' }],
@@ -445,7 +441,7 @@ Programma dell'incontro:
   eventbrite: 'https://www.eventbrite.it/e/biglietti-dati-dati-dati-ovunque-come-sopravvivere-alla-moda-delle-infografiche-25227822095#',
   facebook: '',
   video: 'https://www.youtube.com/watch?v=1JpyIb9z9tc',
-  slides: '',
+  slides: 'https://www.dropbox.com/s/h215obe52vjrq0x/DatiOvunque_Cobox_24Maggio2016.pdf?dl=0',
 }, {
   status: 'past',
   speakers: [{name: 'Gilberto', surname: 'Girardi', email: '', twitter: 'gimbomix' }],
@@ -492,6 +488,7 @@ Nel primo appuntamento BrewBox faranno una veloce carrellata sui concetti base c
   facebook: '',
   video: '',
   slides: 'http://slides.com/samueleverzi/letsplaywithangularjs',
+  resources: ['https://github.com/fgandellini/lets-play-with-angularjs', 'https://github.com/fgandellini/angularjs-pedalboard'],
 }]
 
 export { events }

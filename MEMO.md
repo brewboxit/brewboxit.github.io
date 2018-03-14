@@ -35,7 +35,8 @@ npm start
 1. Go to github (<https://github.com/brewboxit/brewboxit.github.io>)
 2. Create a pull request
 3. Look live preview clicking on link
-4. Approve pull request
+   Look for "deploy/netlify" in check box and click on details
+4. Merge pull request
 
 
 
