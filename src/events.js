@@ -488,6 +488,7 @@ Nel primo appuntamento BrewBox faranno una veloce carrellata sui concetti base c
   facebook: '',
   video: '',
   slides: 'http://slides.com/samueleverzi/letsplaywithangularjs',
+  resources: ['https://github.com/fgandellini/lets-play-with-angularjs', 'https://github.com/fgandellini/angularjs-pedalboard'],
 }]
 
 export { events }
