@@ -13,8 +13,9 @@ In questo talk Michele ci racconterà la sua visione dei prototipi digitali, del
   ],
   tags: [ 'prototyping', 'development', 'design', 'interfaces' ],
   hashtag: '',
-  eventbrite: 'https://www.eventbrite.it/?TODO',
-  facebook: 'https://www.facebook.com/?TODO',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-prototyping-explore-ideas-improve-your-product-45148435185?aff=ehomecard#tickets',
+  facebook: 'https://www.facebook.com/events/1670618842986026/',
+  evensi: 'https://www.evensi.it/prototyping-explore-ideas-improve-product-cobox/255400448#',
   video: '',
   slides: '',
 }, {
