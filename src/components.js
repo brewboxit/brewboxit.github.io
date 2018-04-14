@@ -20,7 +20,7 @@ const SpeakerList = list('speakers__list')(s => `
     <span class="speaker__surname">${s.surname}</span>
     ${s.twitter && `
       <span class="twitter">
-        (<a href="https://twitter.com/${s.twitter}">@${s.twitter}</a>)
+        (<a href="https://twitter.com/${s.twitter}" target="_blank">@${s.twitter}</a>)
       </span>
     `}
   </li>
