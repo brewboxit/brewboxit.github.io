@@ -105,7 +105,7 @@ const Facebook = optional(f => `
 
 const Evensi = optional(f => `
   <div class="event__evensi">
-    <h4 class="event__section-title">Trovaci!</h4>
+    <h4 class="event__section-title">Trovaci</h4>
     <a class="evensi__link" href="${f}">Evensi</a>
   </div>
 `)
