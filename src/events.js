@@ -2,7 +2,8 @@ const events = [{
   status: 'current',
   speakers: [{ name: 'Michele', surname: 'Mazzucco', email: '', twitter: 'michelemazzucco', linkedin: 'https://www.linkedin.com/in/michele-mazzucco-89214053/', blog: 'https://www.michelemazzucco.it' }],
   date: '2018-04-26',
-  title: 'Prototyping<br/>Explore ideas, improve your product!',
+  title: 'Prototyping',
+  subtitle: 'Explore ideas, improve your product!',
   abstract: `Ogni giorno aumenta nel mercato la necessità di progettare, produrre e rilasciare prodotti digitali in modo veloce, efficace e a basso costo. Per essere competitivi sul mercato questi prodotti devono però rispettare le esigenze, i bisogni e le aspettative degli utenti. In questo contesto la prototipazione svolge il fondamentale compito di poter rendere facilmente testabile, comunicanicabile e valutabile un’idea all’interno di un processo di design.
 
 In questo talk Michele ci racconterà la sua visione dei prototipi digitali, delle caratteristiche che questi hanno e di come questi possano essere integrati all’interno di flusso di progettazione al fine di migliorare il proprio prodotto (o la propria azienda).`,
