@@ -24,7 +24,7 @@ npm start
 
 1. Go to netlify <https://app.netlify.com/>
 2. Click brewbox.community (<https://app.netlify.com/sites/brewboxcommunity/overview>)
-3. Click on deploy (<https://app.netlify.com/sites/brewboxcommunity/deploys>)
+3. Click on deploys  (<https://app.netlify.com/sites/brewboxcommunity/deploys>)
 4. In "Search deploys" select __dev__  (<https://app.netlify.com/sites/brewboxcommunity/deploys?filter=dev>)
 5. Look live site clicking on 'Preview deploy'
 
