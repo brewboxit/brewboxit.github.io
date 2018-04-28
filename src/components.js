@@ -20,7 +20,7 @@ const SpeakerList = list('speakers__list')(s => `
     <span class="speaker__surname">${s.surname}</span>
     ${s.twitter && `
       <span class="twitter">
-        (<a href="https://twitter.com/${s.twitter}">@${s.twitter}</a>)
+        (<a href="https://twitter.com/${s.twitter}" target="_blank">@${s.twitter}</a>)
       </span>
     `}
   </li>
@@ -103,6 +103,13 @@ const Facebook = optional(f => `
   </div>
 `)
 
+const Evensi = optional(f => `
+  <div class="event__evensi">
+    <h4 class="event__section-title">Trovaci</h4>
+    <a class="evensi__link" href="${f}">Evensi</a>
+  </div>
+`)
+
 const Video = optional(v => `
   <div class="event__video">
     <h4 class="event__section-title">Rivedi l'evento</h4>
@@ -122,6 +129,7 @@ const Event = e => `
     ${Hashtag(e.hashtag)}
     ${Eventbrite(e.eventbrite)}
     ${Facebook(e.facebook)}
+    ${Evensi(e.evensi)}
     ${Video(e.video)}
   </div>
 `

@@ -2,7 +2,8 @@ const events = [{
   status: 'current',
   speakers: [{ name: 'Michele', surname: 'Mazzucco', email: '', twitter: 'michelemazzucco', linkedin: 'https://www.linkedin.com/in/michele-mazzucco-89214053/', blog: 'https://www.michelemazzucco.it' }],
   date: '2018-04-26',
-  title: 'Prototyping - Explore ideas, improve your product!',
+  title: 'Prototyping',
+  subtitle: 'Explore ideas, improve your product!',
   abstract: `Ogni giorno aumenta nel mercato la necessità di progettare, produrre e rilasciare prodotti digitali in modo veloce, efficace e a basso costo. Per essere competitivi sul mercato questi prodotti devono però rispettare le esigenze, i bisogni e le aspettative degli utenti. In questo contesto la prototipazione svolge il fondamentale compito di poter rendere facilmente testabile, comunicanicabile e valutabile un’idea all’interno di un processo di design.
 
 In questo talk Michele ci racconterà la sua visione dei prototipi digitali, delle caratteristiche che questi hanno e di come questi possano essere integrati all’interno di flusso di progettazione al fine di migliorare il proprio prodotto (o la propria azienda).`,
@@ -11,10 +12,11 @@ In questo talk Michele ci racconterà la sua visione dei prototipi digitali, del
     { activity: 'Talk', start: '19:30', end: '20:30' },
     { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
   ],
-  tags: [ 'prototyping', 'development', 'design' ],
+  tags: [ 'prototyping', 'development', 'design', 'interfaces' ],
   hashtag: '',
-  eventbrite: 'https://www.eventbrite.it/?TODO',
-  facebook: 'https://www.facebook.com/?TODO',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-prototyping-explore-ideas-improve-your-product-45148435185?aff=ehomecard#tickets',
+  facebook: 'https://www.facebook.com/events/1670618842986026/',
+  evensi: 'https://www.evensi.it/prototyping-explore-ideas-improve-product-cobox/255400448#',
   video: '',
   slides: '',
 }, {
@@ -23,7 +25,11 @@ In questo talk Michele ci racconterà la sua visione dei prototipi digitali, del
   date: '2018-03-29',
   title: 'Assistant, the conversational side of Google',
   abstract: `Dobbiamo realizzare un bot conversazionale, quali sono gli strumenti a disposizione per prototipizzare e sviluppare? Che maturità hanno le piattaforme attualmente utilizzabili? Cosa è bene tenere presente prima, durante e dopo lo sviluppo? Questo talk cercherà di fare un po' di chiarezza e dare dei consigli pratici, dal concepimento alla pubblicazione, sulla base di ciò che Alessandro ha imparato dopo un anno e mezzo di sviluppo, usando DialogFlow, Google Assistant e Alexa.
-Ok Google, non voglio perdermelo!`,
+
+  Se siete interessati ad altri lavori di Alessandro, andate a curiosare di cosa si occupa [Evoluzione Telematica](http://www.evoluzionetelematica.it/)!
+
+  Ok Google, non voglio perdermelo!
+`,
   bio: `Attualmente sono socio di Evoluzione Telematica, una web agency che si occupa principalmente di eCommerce. Come molti della mia generazione mi sono avvicinato alla programmazione quando mi regalarono un Commodore64: da li il passaggio dal giocare a cercare di fare un gioco fu breve e ho iniziato ad appassionarmi ai linguaggi. A 16 anni passai a un 8086 per poi seguire tutte le evoluzioni hardware, dei sistemi operativi e dei linguaggi di programmazione negli anni successivi. Nel corso di ormai più di venti anni, passati nel settore IT, ho sviluppato verticalizzazioni per gestionali e sviluppato da zero per i più disparati ambiti. Nel 2009 mi sono avvicinato al DDD e alle pratiche agili e da allora sono sempre "alla ricerca della verità". Negli ultimi tempi, oltre a occuparmi di eCommerce, ho anche realizzato applicazioni di realtà aumentata, chatbot e utilizzato strumenti come kinect, oculus rift e droni. Mi piacciono le lingue straniere e sono appassionato di arti marziali, pratico Krav Maga e nel tempo libero rimanente studio e rimango aggiornato sulla mia passione principale: la programmazione.`,
   schedule: [
     { activity: 'Aperitivo', start: '18:30', end: '19:30' },
