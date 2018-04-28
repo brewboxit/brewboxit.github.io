@@ -18,7 +18,7 @@ In questo talk Michele ci racconterà la sua visione dei prototipi digitali, del
   facebook: 'https://www.facebook.com/events/1670618842986026/',
   evensi: 'https://www.evensi.it/prototyping-explore-ideas-improve-product-cobox/255400448#',
   video: '',
-  slides: '',
+  slides: 'https://speakerdeck.com/michelemazzucco/prototyping-explore-ideas-improve-your-product',
 }, {
   status: 'past',
   speakers: [{ name: 'Alessandro', surname: 'Colla', email: '', twitter: 'collaalessandro', linkedin: 'https://www.linkedin.com/in/alessandrocolla', blog: 'http://www.alessandrocolla.com' }],
@@ -41,7 +41,7 @@ In questo talk Michele ci racconterà la sua visione dei prototipi digitali, del
   eventbrite: 'https://www.eventbrite.it/e/biglietti-assistant-the-conversational-side-of-google-44163390891',
   facebook: 'https://www.facebook.com/events/187179488727300/',
   video: '',
-  slides: '',
+  slides: 'https://www.slideshare.net/AlessandroColla/assistant-the-conversational-side-of-google-93644328',
 }, {
   status: 'past',
   speakers: [{ name: 'Luca', surname: 'Bravo', email: '', twitter: 'hz', }],
@@ -163,7 +163,7 @@ In questo talk Michele ci racconterà la sua visione dei prototipi digitali, del
   eventbrite: 'https://www.eventbrite.it/e/biglietti-experience-matters-38679232626?aff=es2#tickets',
   facebook: 'https://www.facebook.com/events/334984146965938',
   video: 'https://www.youtube.com/watch?v=HA-vTSoYcDQ',
-  slides: '',
+  slides: 'https://www.slideshare.net/acqualiofilizzata/experience-matters-90489140',
 }, {
   status: 'past',
   speakers: [{ name: 'Fabrizio', surname: 'Cornelli', email: '', twitter: 'fabrizi0' }],
@@ -191,7 +191,7 @@ In questo talk Michele ci racconterà la sua visione dei prototipi digitali, del
   eventbrite: 'https://www.eventbrite.it/e/biglietti-devsecops-and-the-hunter-farmer-model-37873199760',
   facebook: 'https://www.facebook.com/events/271940556656971',
   video: 'https://www.youtube.com/watch?v=31g0aX6uG0k',
-  slides: '',
+  slides: 'https://www.slideshare.net/Codemotion/fabrizio-cornelli-antropologia-di-un-devsecops-secondo-il-modello-hunter-farmer-codemotion-milan-2017',
 }, {
   status: 'past',
   speakers: [{ name: 'Daniele', surname: 'Crespi', email: '', twitter: 'CrespiDaniele', },
@@ -229,7 +229,7 @@ In questo talk Michele ci racconterà la sua visione dei prototipi digitali, del
   eventbrite: 'https://www.eventbrite.it/e/biglietti-from-online-training-courses-to-mooc-34607159947',
   facebook: 'https://www.facebook.com/events/118230102085591',
   video: 'https://www.youtube.com/watch?v=RuR6epdvSaI',
-  slides: '',
+  slides: 'https://www.slideshare.net/cigucigu/online-learning-platforms',
 }, {
   status: 'past',
   speakers: [{ name: 'Daniele', surname: 'Giussani', email: '', twitter: '', },
@@ -439,7 +439,7 @@ Prerequisiti:
   eventbrite: 'https://www.eventbrite.it/e/biglietti-qual-e-il-colmo-per-un-dev-avere-attori-come-amici-26031687478#',
   facebook: '',
   video: 'https://www.youtube.com/watch?v=SjrdntZvBBs',
-  slides: '',
+  slides: 'https://docs.google.com/presentation/d/1PIo6xKv7Q2GmMBLIedVPz6ljvLuDSm8YdCCnvtPKde4/edit?usp=sharing',
 }, {
   status: 'past',
   speakers: [{name: 'Emanuele', surname: 'Conti', email: '', twitter: 'emanuele_conti' }],
