@@ -1,5 +1,29 @@
 const events = [{
   status: 'current',
+  speakers: [{ name: 'Iacopo', surname: 'Spalletti', email: '', twitter: 'yakkys', linkedin: 'https://www.linkedin.com/in/iacopospalletti/' }],
+  date: '2018-05-29',
+  title: 'Creare applicazioni realtime con Django',
+  abstract: `Con l'introduzione di Channels, creare applicazioni real time con Django è diventato molto più semplice.
+
+  E' infatti possibile concentrarsi sulla costruzione della propria applicazione anziché dover risolvere il problema della gestione real-time, e si hanno tutte le "batterie incluse" di Django a disposizione.
+
+  Dopo un'introduzione a Django, vedremo alcuni dettagli su Channels ed esamineremo una semplice applicazione demo che ci permetterà di vedere in pratica come costruire la propria prima applicazione.
+
+  Ad una prima parte teoria, seguirà una breve sessione di live coding per costruire un modulo aggiuntivo dell'applicazione demo.`,
+  schedule: [
+    { activity: 'Aperitivo', start: '18:30', end: '19:30' },
+    { activity: 'Talk', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
+  ],
+  tags: [ 'python', 'development', 'django', 'channels', 'real-time' ],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-creare-applicazioni-realtime-con-django-46036033014#tickets',
+  facebook: 'https://www.facebook.com/events/367589597085424/',
+  evensi: '',
+  video: '',
+  slides: '',
+}, {
+  status: 'past',
   speakers: [{ name: 'Michele', surname: 'Mazzucco', email: '', twitter: 'michelemazzucco', linkedin: 'https://www.linkedin.com/in/michele-mazzucco-89214053/', blog: 'https://www.michelemazzucco.it' }],
   date: '2018-04-26',
   title: 'Prototyping',
