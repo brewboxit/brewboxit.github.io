@@ -1,5 +1,31 @@
 const events = [{
   status: 'current',
+  speakers: [{ name: 'Paolo', surname: 'Ferretti', email: '', twitter: 'paoferretti', github: 'https://github.com/pferretti' }],
+  date: '2018-06-28',
+  title: 'API data stubbing, done right.',
+  abstract: `Sicuramente avete sentito parlare di big data, ma avete mai sentito parlare di fake data?
+
+  Capita frequentemente di dover sviluppare o testare i vostri software senza avere immediatamente a disposizione le API che vi forniscono i dati. Oppure avete a disposizione le API, ma non sono aggiornate o non vi forniscono tutti i casi d'uso di cui avete bisogno. Altre volte, invece, il vostro project manager ha bisogno di definire nuove strutture dati ma non ha uno strumento semplice per poterlo fare.
+  
+  Probabilmente non lo sapevate, ma avete un disperato bisogno di fake data!
+  
+  Paolo vi introdurrà nel fantastico mondo dei fake data e vi spiegherà come è nata l'esigenza di strutturare un flusso di lavoro per la gestione dei data mock, mostrandovi come ha cercato di risolvere questo problema con l'aiuto dei suoi colleghi.
+  
+  Il tutto cross-language e cross-platform. 😎`,
+  schedule: [
+    { activity: 'Aperitivo', start: '18:30', end: '19:30' },
+    { activity: 'Talk', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
+  ],
+  tags: [ 'API', 'stubbing', 'mock', 'fake-data', 'fixture' ],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-api-data-stubbing-done-right-46915377156?aff=ehomecard#tickets',
+  facebook: 'https://www.facebook.com/events/390449758129432/',
+  evensi: 'https://www.evensi.it/api-data-stubbing-cobox/260125926',
+  video: '',
+  slides: '',
+},{
+  status: 'past',
   speakers: [{ name: 'Iacopo', surname: 'Spalletti', email: '', twitter: 'yakkys', linkedin: 'https://www.linkedin.com/in/iacopospalletti/' }],
   date: '2018-05-29',
   title: 'Creare applicazioni realtime con Django',
