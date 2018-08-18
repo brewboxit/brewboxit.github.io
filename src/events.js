@@ -1,5 +1,32 @@
 const events = [{
   status: 'current',
+  speakers: [],
+  date: '2018-08-28',
+  title: '⛱️ Beerellone 2018!',
+  abstract: `Per quest'anno non cambiare! Stessa spiaggia, stesso... **Beerellone**!!!
+
+  Ecco in arrivo l'appuntamento nerd dell'estate: prima di riprendere con gli eventi tech a settembre, abbiamo pensato di trovarci e bere una birra in compagnia.
+
+  Hai letto qualcosa di interessante sotto l'ombrellone? Hai trovato la soluzione ad un problema mentre scalavi le montagne? Hai passato le tue ferie dentro il mondo virtuale della tua PlayStation VR?
+  
+  Insomma, qualsiasi sia stata la tua estate raccontiamocela martedì 28 sotto gli ombrelloni del
+  [Cookies bar & lunch](https://www.facebook.com/cookiesbarlunch/) dalle 18:30.
+
+  Quale migliore occasione per sfoggiare la nostra abbronzatura da monitor 4k!? 😎
+  `,
+  schedule: [
+    { activity: 'Aperitivo e slides di benvenuto', start: '18:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
+  ],
+  tags: [ 'beer', 'ombrellone', 'networking', '😎' ],
+  hashtag: '',
+  eventbrite: '',
+  facebook: '',
+  evensi: '',
+  video: '',
+  slides: '',
+},{
+  status: 'past',
   speakers: [{ name: 'Paolo', surname: 'Ferretti', email: '', twitter: 'paoferretti', github: 'https://github.com/pferretti' }],
   date: '2018-06-28',
   title: 'API data stubbing, done right.',
