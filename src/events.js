@@ -20,9 +20,9 @@ const events = [{
   ],
   tags: [ 'beer', 'ombrellone', 'networking', '😎' ],
   hashtag: '',
-  eventbrite: '',
-  facebook: '',
-  evensi: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-beerellone-2018-49241313093#tickets',
+  facebook: 'https://www.facebook.com/events/281211249343567',
+  evensi: 'https://www.evensi.it/beerellone-2018-cobox/266242822',
   video: '',
   slides: '',
 },{
