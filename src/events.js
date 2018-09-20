@@ -1,5 +1,32 @@
 const events = [{
   status: 'current',
+  speakers: [{ name: 'Luigi', surname: 'De Rosa', email: '', twitter: 'luruke', github: 'https://github.com/luruke' }],
+  date: '2018-10-04',
+  title: 'WebGL, tre anni dopo',
+  abstract: `In questo evento BrewBox Luigi, creative developer @ EPIC Agency, ci racconterà la sua esperienza con WebGL e di come, il suo approccio verso questa tecnologia è cambiato negli ultimi anni.
+  
+  Ecco cosa ci ha raccontato:
+
+  "Negli ultimi tre anni ho avuto l'occasione di lavorare su diversi progetti WebGL per diversi clienti tra cui Red Bull, Facebook, UPS...
+  
+  Sono passato da scrivere semplice HTML/CSS a complessi shaders scritti in GLSL (OpenGL Shading Language): piccoli programmi che vengono compilati e girano direttamente sulla scheda grafica per creare effetti grafici. Nel mio talk ci faremo una chiacchierata su WebGL, vi mostrerò qualche trick che ho imparato e condividerò la mia (breve) esperienza con questa tecnologia che ci permette di utilizzare tutta la potenza della vostra GPU sul web!"
+  
+  Siete curiosi di scoprire il mondo del web proiettato in 3D? ...Non mancate! :D
+  `,
+  schedule: [
+    { activity: 'Aperitivo', start: '18:30', end: '19:30' },
+    { activity: 'Talk', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
+  ],
+  tags: [ 'UI', 'GLSL', '3D', 'WebGL' ],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-webgl-tre-anni-dopo-50456288116?aff=ebdssbdestsearch#tickets',
+  facebook: 'https://www.facebook.com/events/467796033724461',
+  evensi: 'https://www.evensi.com/269055831',
+  video: '',
+  slides: '',
+},{
+  status: 'past',
   speakers: [],
   date: '2018-08-28',
   title: '⛱️ Beerellone 2018!',
