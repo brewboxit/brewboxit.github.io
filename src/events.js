@@ -1,5 +1,30 @@
 const events = [{
   status: 'current',
+  speakers: [{ name: 'Stefano', surname: 'Maestri', email: '', twitter: 'maeste', github: 'https://github.com/maeste' }],
+  date: '2018-11-15',
+  title: 'Smart contract, presente e futuro',
+  abstract: `Cosa sono gli Smart Contract? Perchè "Smart Contract" è sulla bocca di tutti gli addetti ai lavori in ambito blockchain, ma non solo?
+
+  Quali sono le applicazioni che realmente possono beneficiare del concetto di smart contract.
+
+  Parleremo delle Distributed Application (Dapp) e del web 3.0 con concreti esempi già attualmente in uso e di quanto attendersi dal prossimo futuro.
+
+  Blockchain e Smart Contract...tutti ne parlano ma non si capisce mai bene di cosa si tratta! Per fortuna Stefano ci fara' un po' di chiarezza! ;)
+  `,
+  schedule: [
+    { activity: 'Aperitivo', start: '18:30', end: '19:30' },
+    { activity: 'Talk', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
+  ],
+  tags: [ 'Smart Contracts', 'Blockchain', 'Crypto', 'Web 3.0' ],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-smart-contract-presente-e-futuro-51513358843#tickets',
+  facebook: 'https://www.facebook.com/events/282134872435414',
+  evensi: '',
+  video: '',
+  slides: '',
+},{
+  status: 'past',
   speakers: [{ name: 'Luigi', surname: 'De Rosa', email: '', twitter: 'luruke', github: 'https://github.com/luruke' }],
   date: '2018-10-04',
   title: 'WebGL, tre anni dopo',
