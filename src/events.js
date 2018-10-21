@@ -20,7 +20,7 @@ const events = [{
   hashtag: '',
   eventbrite: 'https://www.eventbrite.it/e/biglietti-smart-contract-presente-e-futuro-51513358843#tickets',
   facebook: 'https://www.facebook.com/events/282134872435414',
-  evensi: '',
+  evensi: 'https://www.evensi.it/smart-contract-presente-cobox/273762820',
   video: '',
   slides: '',
 },{
