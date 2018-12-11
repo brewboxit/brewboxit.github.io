@@ -39,6 +39,7 @@ const events = [{
   tags: [ 'beer', 'panettone', 'christmas', 'babbo', 'natale', 'talkanarchy' ],
   eventbrite: 'https://www.eventbrite.it/e/biglietti-beerettone-2018-53592347153#tickets',
   facebook: 'https://www.facebook.com/events/198931841053519',
+  evensi: 'https://www.evensi.it/beerettone-2018-cobox/282173247',
 }, {
   status: 'past',
   speakers: [{ name: 'Stefano', surname: 'Maestri', email: '', twitter: 'maeste', github: 'https://github.com/maeste' }],
