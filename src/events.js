@@ -1,5 +1,46 @@
 const events = [{
   status: 'current',
+  date: '2018-12-18',
+  title: '🎅 Beerettone 2018!',
+  abstract: `Anche quest'anno per rendere indimenticabile il Beerettone abbiamo bisogno dei tuo aiuto! :)
+
+  La formula sarà la stessa proposta lo scorso anno: TalkAnarchy. Per chi non la conoscesse: avete presente quando, solitamente dopo qualche birra, si creano gruppetti di persone che in maniera informale e casuale parlano di argomenti nerd, nuovi linguaggi, fanta-idee e proof-of-concept? Ecco. TalkAnarchy è questo, ovvero il nostro regalo di Natale preferito :)
+  
+  ## Come funziona
+  
+  Niente sala, niente proiettore, ma ovviamente sì alla birra! Si svolgerà tutto al COOKIES bar & lunch.
+  
+  Ci saranno diverse TopicArea ovvero piccole postazioni curate da una persona o da un gruppo, in cui si parlerà di un argomento. I partecipanti potranno spostarsi da una TopicArea all'altra (aperitivo alla mano) e ascoltare i diversi argomenti nella più totale anarchia!
+  
+  ## Ok, ora è il tuo momento!
+  
+  In cosa consiste una TopicArea? Semplice: ci piacerebbe che tu condividessi con noi una tua esperienza, qualcosa su cui hai lavorato, un libro che hai letto, uno strumento che hai trovato utile, o semplicemente un’idea che ti gira per la testa da tempo, purché abbia a che fare con la tecnologia!
+  
+  Immagina un mini discorso di massimo 15 minuti per raccontare il tuo argomento e porta con te quello di cui hai bisogno. Hai delle slide? Porta un portatile attorno al quale chi si fermerà alla tua Topic Area si fermerà ad ascoltare. Hai moddato un furby? Non aspettiamo altro che poterci giocare!
+  
+  L'evento sarà molto informale, puoi gestire la chiacchierata assolutamente come vuoi, niente paura!
+  
+  Compila il modulo che trovi al link qui sotto e proponi l'idea della tua TopicArea!
+  
+  [Proposta TopicArea Beerettone 2018](https://goo.gl/forms/jra3l2uQ9XRhGWsg1)
+  
+  ## La cena di Natale
+  
+  Una volta terminati gli interventi alle TopicAreas ci sarà venuta una fame da lupi, per cena il bar ci preparerà **un antipasto di salumi, un piatto unico con riso pilaf e costine alla birra caramellate** e l'immancabile...**panettone**! La cena ha un costo di **€20, con una bevanda inclusa** (birra, acqua, bibita).
+  
+  Dovendo gestire la cena, per questo evento sono particolarmente importanti le **prenotazioni** su Eventbrite (trovate il link qui sotto) non mancate!
+  
+  [Prenota il tuo posto a cena](https://www.eventbrite.it/e/biglietti-beerettone-2018-53592347153#tickets)
+  `,
+  schedule: [
+    { activity: 'Aperitivo e TopicAreas', start: '18:30', end: '20:00' },
+    { activity: 'Cena', start: '20:00', end: '21:30' },
+  ],
+  tags: [ 'beer', 'panettone', 'christmas', 'babbo', 'natale', 'talkanarchy' ],
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-beerettone-2018-53592347153#tickets',
+  facebook: 'https://www.facebook.com/events/198931841053519',
+}, {
+  status: 'past',
   speakers: [{ name: 'Stefano', surname: 'Maestri', email: '', twitter: 'maeste', github: 'https://github.com/maeste' }],
   date: '2018-11-15',
   title: 'Smart contract, presente e futuro',
