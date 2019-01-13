@@ -1,5 +1,32 @@
 const events = [{
   status: 'current',
+  speakers: [{ name: 'Emanuele', surname: 'Del Bono', email: '', twitter: 'emadb', github: 'https://github.com/emadb' }],
+  date: '2019-01-29',
+  title: 'Un sorso di Elixir!',
+  abstract: `Sembra strano che una piattaforma progettata tra anni '80 e '90 possa essere ancora valida oggi per realizzare applicazioni con le esigenze odierne, ma le sue caratteristiche fondanti la rendono ottimale proprio per risolvere le problematiche di scalabilità che il mercato oggi chiede.
+  
+  Se a questo aggiungiamo il fatto che nel 2011 viene presentato Elixir un linguaggio che gira sulla BEAM e che ha tutte le caratteristiche di concorrenza, performance, modularità ed eleganza non possiamo che ottenere la soluzione perfetta per sviluppare le applicazioni del 2020.
+  
+  Durante il talk vedremo insieme quali sono queste caratteristiche e capiremo in quali contesti Elixir offre tutta la sua potenza con un po' di codice e qualche esempio "real-world".
+  
+  Lo speaker è Emanuele Del Bono: programmatore da molti anni, si occupa di progettazione e sviluppo di applicazioni. Lavora in C#, JavaScript ed Elixir, è un seguace del TDD e continua a studiare nuovi modi per scrivere software sempre migliore.
+  
+  Insomma, si ricomincia alla grande! Non mancate! 😉
+  `,
+  schedule: [
+    { activity: 'Aperitivo', start: '18:30', end: '19:30' },
+    { activity: 'Talk', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
+  ],
+  tags: [ 'Elixir', 'Erlang', 'Actor Model', 'Functional Programming' ],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-un-sorso-di-elixir-54818916856#tickets',
+  facebook: 'https://www.facebook.com/events/516359678850836',
+  evensi: '',
+  video: '',
+  slides: '',
+}, {
+  status: 'past',
   date: '2018-12-18',
   title: '🎅 Beerettone 2018!',
   abstract: `Anche quest'anno per rendere indimenticabile il Beerettone abbiamo bisogno dei tuo aiuto! :)
@@ -65,7 +92,7 @@ const events = [{
   evensi: 'https://www.evensi.it/smart-contract-presente-cobox/273762820',
   video: '',
   slides: '',
-},{
+}, {
   status: 'past',
   speakers: [{ name: 'Luigi', surname: 'De Rosa', email: '', twitter: 'luruke', github: 'https://github.com/luruke' }],
   date: '2018-10-04',
