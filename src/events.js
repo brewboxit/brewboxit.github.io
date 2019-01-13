@@ -22,7 +22,7 @@ const events = [{
   hashtag: '',
   eventbrite: 'https://www.eventbrite.it/e/biglietti-un-sorso-di-elixir-54818916856#tickets',
   facebook: 'https://www.facebook.com/events/516359678850836',
-  evensi: '',
+  evensi: 'https://www.evensi.it/un-sorso-di-elixir-cobox/285968937',
   video: '',
   slides: '',
 }, {
