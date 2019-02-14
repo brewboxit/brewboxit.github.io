@@ -1,5 +1,34 @@
 const events = [{
   status: 'current',
+  date: '2019-02-21',
+  title: 'Marubino Night',
+  abstract: `Abbiamo voluto riproporre questa fantastica serata anche nel 2019, in quanto vogliamo omaggiare con fiumi di brodo, carboidrati e proteine tutte le belle esperienze di questi ultimi mesi, è sempre bello mettersi a tavola e parlare insieme di quello che ci piace di più! 
+    Quindi NERDS alla raccolta, ecco un pò di informazioni utili:
+
+    L’appuntamento è per giovedì 21 Marzo, ore 20:00 al Bar Sport di Costa Sant’Abramo.
+    Il costo della cena è di 20/30€, e prevede antipasti, marubini in brodo, dolce, vino, acqua, caffè, amaro.
+
+    Giusto un avviso che se non sei mai stato al Bar Sport, è necessaria una preparazione psicologica e soprattutto… non mangiare troppo a pranzo ;)
+
+    Se sei vegetariano: avvisaci! Ci accorderemo per un menu ad-hoc.
+
+    Come funziona:
+    Tramite Eventbrite (solo tramite Eventbrite), prenoti il tuo posto a tavola. Il pagamento si farà direttamente al ristorante. Se prenoti e decidi di non venire, ti chiediamo la cortesia di disdire per tempo, altrimenti la tua quota dovrà essere divisa fra i presenti (che in qualche maniera ti odieranno).
+
+    I posti sono limitatissimi 15/20 quindi non fartelo scappare.
+
+    Che il marubino sia con te!
+  `,
+  schedule: [],
+  tags: [],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-marubino-night-56585262042#tickets',
+  facebook: 'https://www.facebook.com/events/291649388166762/',
+  evensi: 'https://www.evensi.it/marubino-night-trattoria-bar-lupi/292743039',
+  video: '',
+  slides: '',
+},{
+  status: 'past',
   speakers: [{ name: 'Emanuele', surname: 'Del Bono', email: '', twitter: 'emadb', github: 'https://github.com/emadb' }],
   date: '2019-01-29',
   title: 'Un sorso di Elixir!',
