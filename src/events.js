@@ -6,15 +6,18 @@ const events = [{
 
 Quindi NERDS alla raccolta, ecco un pò di informazioni utili:
 
-L’appuntamento è per giovedì 21 Marzo, ore 20:00 al Bar Sport di Costa Sant'Abramo.
-Il costo della cena è di 20/30€, e prevede antipasti, marubini in brodo, dolce, vino, acqua, caffè, amaro.
+L’appuntamento è per giovedì **21 Febbraio**, ore **20:00** al **Bar Sport** di Costa Sant'Abramo.
+Il costo della cena è di 20,00 €, e prevede antipasti, marubini in brodo, dolce, vino, acqua, caffè, amaro.
 
-Giusto un avviso che se non sei mai stato al Bar Sport, è necessaria una preparazione psicologica e soprattutto… non mangiare troppo a pranzo ;)
+Giusto un avviso: se non sei mai stato al Bar Sport, è necessaria una preparazione psicologica e soprattutto… non mangiare troppo a pranzo! 😉
 
 Se sei vegetariano: avvisaci! Ci accorderemo per un menu ad-hoc.
 
 Come funziona:
-Tramite Eventbrite (solo tramite Eventbrite), prenoti il tuo posto a tavola. Il pagamento si farà direttamente al ristorante. Se prenoti e decidi di non venire, ti chiediamo la cortesia di disdire per tempo, altrimenti la tua quota dovrà essere divisa fra i presenti (che in qualche maniera ti odieranno).
+* Tramite **Eventbrite** (solo tramite Eventbrite), prenoti il tuo posto a tavola.
+* Il pagamento si farà direttamente al ristorante.
+
+⚠ **Se prenoti e decidi di non venire, ti chiediamo la cortesia di disdire per tempo**, altrimenti la tua quota dovrà essere divisa fra i presenti (che in qualche maniera ti odieranno).
 
 I posti sono limitatissimi 15/20 quindi non fartelo scappare.
 
