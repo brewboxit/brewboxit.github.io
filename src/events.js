@@ -1,5 +1,32 @@
 const events = [{
   status: 'current',
+  speakers: [{ name: 'Samuele', surname: 'Verzi', email: 'samuele.v@me.com', twitter: 'samu_', github: 'https://github.com/samu_' }],
+  date: '2019-03-27',
+  title: 'React Wonderland!',
+  abstract: `**Descrizione**
+
+Mi sono imbattuto più volte in discorsi "fantastici" dove cerco in qualsiasi modo di rendere appetibile e facilmente orecchiabile cosa c’è dietro al lavoro che svolgo tutti i giorni e molte volte è difficile far venire nella tana del Bianconiglio 🐇 colleghi e amici a conoscere l’ecosistema di come si sviluppa un interfaccia utente di un applicazione web. 
+
+Molte volte sentendo parole ricorrenti come il nome di una libreria ci si sofferma solo su son una piccola parte di una realtà molto più grande. Eccomi qui allora, cercando di farvi una piccola ma completa introduzione al magico mondo attorno e dentro a React per darvi ‘I Consigli di un Bruco’ 🐛 per iniziare a giocare a croquet con la regina 👸🏻 e divertendosi con Javascript, già da subito.
+  
+**Qualcosa sullo speaker:**
+
+Samuele Verzi è uno sviluppatore js che prova a risolvere problemi, Brewboxer da sempre e fanatico del web, lo puoi trovare facilmente davanti a un bicchiere mezzo pieno di birra, nel tempo libero lavora da Evensi e cerca un mentore per nuovi linguaggi di programmazione (possibilmente Rust).
+  `,
+  schedule: [
+    { activity: 'Aperitivo', start: '18:30', end: '19:30' },
+    { activity: 'Talk', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole)', start: '20:30', end: '22:00' },
+  ],
+  tags: ['React', 'Javascript', 'UI', 'Frontend'],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-react-wonderland-56585265051#tickets',
+  facebook: 'https://www.facebook.com/events/1125818757600124/',
+  evensi: 'https://www.evensi.it/react-wonderland-cobox/298187444',
+  video: '',
+  slides: '',
+},{
+  status: 'past',
   date: '2019-02-21',
   title: 'Marubino Night',
   abstract: `Abbiamo voluto riproporre questa fantastica serata anche nel 2019, in quanto vogliamo omaggiare con fiumi di brodo, carboidrati e proteine tutte le belle esperienze di questi ultimi mesi, è sempre bello mettersi a tavola e parlare insieme di quello che ci piace di più!
