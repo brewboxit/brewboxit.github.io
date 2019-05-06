@@ -6,7 +6,7 @@ const events = [{
   subtitle: 'Gli imprevisti non capitano solo a te',
   abstract: `La nostra missione - mettere in contatto persone appassionate di tecnologia e innovazione - ci porta a conoscere sempre amici e posti nuovi! Da questo mese saremo anche a Modena. BrewBox inizia una nuova collaborazione con gli amici del coworking Junto.
   
-Apriamo alla grande con un talk dal nostro Roberto, che ci parlerà di pianificazione Agile.
+Apriamo alla grande con un talk dal nostro Roberto, che ci parlerà di pianificazione agile.
 
 **Descrizione**
 
