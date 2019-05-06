@@ -1,5 +1,53 @@
 const events = [{
   status: 'current',
+  speakers: [{ name: 'Roberto', surname: 'Albertini', email: 'robynifft@gmail.com', twitter: 'robalbertini' }],
+  date: '2019-05-22',
+  title: 'Pianificazione agile!',
+  subtitle: 'Gli imprevisti non capitano solo a te',
+  abstract: `La nostra missione - mettere in contatto persone appassionate di tecnologia e innovazione - ci porta a conoscere sempre amici e posti nuovi! Da questo mese saremo anche a Modena. BrewBox inizia una nuova collaborazione con gli amici del coworking Junto.
+  
+Apriamo alla grande con un talk dal nostro Roberto, che ci parlerà di pianificazione Agile.
+
+**Descrizione**
+
+La pianificazione, comunemente, è intesa come uno strumento che serve a congelare una promessa in un piano. Il piano mostra la previsione di come andrà il progetto.
+Questo piano viene spesso smontato dai cambiamenti e dagli imprevisti e non è di aiuto per ottenere un risultato.
+
+Sì, non capita solo a te, è normale. Il cambiamento è una componente inevitabile.
+
+Esiste un diverso approccio che considera la pianificazione come una attività continuativa. Si rinuncia al desiderio di prevedere e ci si concentra sugli strumenti per controllare il cambiamento ed adattare il progetto.
+
+Nel talk, tramite simulazioni di progetti dove accadono i tipici imprevisti, verranno presentati alcuni degli strumenti che permettono di reagire al meglio, pianificando continuamente, per ottenere il miglior risultato possibile.
+
+  
+**Qualcosa sullo speaker:**
+
+Ho iniziato nel 2001 senza avere alle spalle studi informatici.
+Inizialmente studiavo avidamente le tecnologie necessarie per i progetti, ma presto ho capito che era più importante, e per me più affascinante, approfondire il metodo di lavoro piuttosto che la tecnologia del momento.
+Sono stato conquistato dal libro bianco di Kent Beck ed ho cominciato ad esplorare il metodi agili.
+
+**Location:**
+
+JUNTO (Modena)
+Via Canaletto Sud, 17
+Interno 12
+41122 Modena MO
+
+  `,
+  schedule: [
+    { activity: 'Aperitivo @ JUNTO (Modena)', start: '18:30', end: '19:30' },
+    { activity: 'Talk @ JUNTO (Modena)', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole) (Modena)', start: '20:30', end: '22:00' },
+  ],
+  tags: ['Management', 'Agile', 'Pianificazione', 'Cambiamento'],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-pianificazione-agile-61401095329#tickets',
+  facebook: 'https://www.facebook.com/events/420539875190651',
+  evensi: 'https://www.evensi.it/pianificazione-agile-junto/307936551',
+  video: '',
+  slides: '',
+},{
+  status: 'past',
   speakers: [{ name: 'Samuele', surname: 'Verzi', email: 'samuele.v@me.com', twitter: 'samu_', github: 'https://github.com/samu_' }],
   date: '2019-03-27',
   title: 'React Wonderland!',
