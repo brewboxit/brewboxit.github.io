@@ -1,8 +1,42 @@
 const events = [{
   status: 'current',
+  speakers: [{ name: 'Saverio', surname: 'Patruno', email: '', twitter: 'savex83' }],
+  date: '2019-05-29',
+  title: 'Tornado Framework',
+  subtitle: 'Un web framework ed una libreria per comunicazioni asincrone scritta in Python',
+  abstract: `Nell'informatica moderna sta diventando sempre più importante soddisfare diverse necessità nel più breve tempo possibile. In un era dove la distribuzione dei servizi gioca un ruolo fondamentale, poter contare su un framework versatile, in continua evoluzione, basato su un linguaggio di programmazione di facile apprendimento significa avere un vantaggio competitivo.
+
+  Nel talk si parlerà di tre possibili utilizzi di Tornado. In una prima parte affronteremo l'utilizzo di Tornado nel servire pagine statiche, assets o pagine dinamiche e di come è possibile usare il suo templating system o integrarlo con altri templating system per poter utilizzare codice html già scritto.
+  
+  Può capitare di dover operare in ambienti event-driven, quindi diventa necessario ridurre i costi ed i tempi di connessioni in polling ed adottare connessioni persistenti.
+  Nella seconda parte del talk parleremo della capacità di Tornado di stabilire connessioni persistenti e quindi di implementare i WebSocket, anche con connessioni sicure.
+  
+  Nella terza parte invece vedremo come Tornado può essere utilizzato per operare con richieste asincrone, sfruttando il framework asyncio e garantendo prestazioni eccellenti e volumi di connessioni elevatissimi.
+
+**Location:**
+
+COBOX (Cremona)
+Via dell'Innovazione Digitale, 3
+26100 Cremona CR
+
+  `,
+  schedule: [
+    { activity: 'Aperitivo @ COBOX (Cremona)', start: '18:30', end: '19:30' },
+    { activity: 'Talk @ COBOX (Cremona)', start: '19:30', end: '20:30' },
+    { activity: 'Cena (per chi vuole) (Cremona)', start: '20:30', end: '22:00' },
+  ],
+  tags: ['Python', 'Tornado', 'Development'],
+  hashtag: '',
+  eventbrite: 'https://www.eventbrite.it/e/biglietti-tornado-framework-62135980390#tickets',
+  facebook: 'https://www.facebook.com/events/2771595819579936',
+  evensi: '',
+  video: '',
+  slides: '',
+},{
+  status: 'current',
   speakers: [{ name: 'Roberto', surname: 'Albertini', email: 'robynifft@gmail.com', twitter: 'robalbertini' }],
   date: '2019-05-22',
-  title: 'Pianificazione agile!',
+  title: 'Pianificazione agile',
   subtitle: 'Gli imprevisti non capitano solo a te',
   abstract: `La nostra missione - mettere in contatto persone appassionate di tecnologia e innovazione - ci porta a conoscere sempre amici e posti nuovi! Da questo mese saremo anche a Modena. BrewBox inizia una nuova collaborazione con gli amici del coworking Junto.
   
