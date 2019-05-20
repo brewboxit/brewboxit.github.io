@@ -4,7 +4,7 @@ const events = [{
   date: '2019-05-29',
   title: 'Tornado Framework',
   subtitle: 'Un web framework ed una libreria per comunicazioni asincrone scritta in Python',
-  abstract: `Nell'informatica moderna sta diventando sempre più importante soddisfare diverse necessità nel più breve tempo possibile. In un era dove la distribuzione dei servizi gioca un ruolo fondamentale, poter contare su un framework versatile, in continua evoluzione, basato su un linguaggio di programmazione di facile apprendimento significa avere un vantaggio competitivo.
+  abstract: `Nell'informatica moderna sta diventando sempre più importante soddisfare diverse necessità nel più breve tempo possibile. In un'era dove la distribuzione dei servizi gioca un ruolo fondamentale, poter contare su un framework versatile, in continua evoluzione, basato su un linguaggio di programmazione di facile apprendimento significa avere un vantaggio competitivo.
 
   Nel talk si parlerà di tre possibili utilizzi di Tornado. In una prima parte affronteremo l'utilizzo di Tornado nel servire pagine statiche, assets o pagine dinamiche e di come è possibile usare il suo templating system o integrarlo con altri templating system per poter utilizzare codice html già scritto.
   
